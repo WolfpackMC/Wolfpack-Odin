@@ -11,7 +11,8 @@ steps:
   - curl -L 'https://get.kalka.io/curseforge.db' > curseforge.db
   - git clone https://git.kalka.io/kalka/wolfpackmaker
   - curl -L https://get.kalka.io/wolfpackmaker.tar.gz > wolfpackmaker/wolfpackmaker.tar.gz
-  - tar -zxvf wolfpackmaker.tar.gz
+  - tar -zxvf wolfpackmaker/wolfpackmaker.tar.gz
+  - mv wolfpackmaker.exe wolfpackmaker/wolfpackmaker.exe
 
 - name: lock
   image: kalka/packmaker
