@@ -10,9 +10,6 @@ steps:
   - pip install aiohttp[speedups]
   - curl -L 'https://get.kalka.io/curseforge.db' > curseforge.db
   - git clone https://git.kalka.io/kalka/wolfpackmaker
-  - curl -L https://get.kalka.io/wolfpackmaker.tar.gz > wolfpackmaker/wolfpackmaker.tar.gz
-  - tar -zxvf wolfpackmaker/wolfpackmaker.tar.gz
-  - mv wolfpackmaker.exe wolfpackmaker/wolfpackmaker.exe
 
 - name: lock
   image: kalka/packmaker
@@ -22,7 +19,7 @@ steps:
 - name: package
   image: kalka/packmaker
   commands:
-  - zip -r Wolfpack-Odin.zip wolfpackmaker/wolfpackmaker.exe .minecraft instance.cfg mmc-pack.json wolfpackodin.png
+  - zip -r Wolfpack-Odin.zip wolfpackmaker/requirements.txt wolfpackmaker/wolfpackmaker.py .minecraft instance.cfg mmc-pack.json wolfpackodin.png
   - zip -r config.zip .minecraft mmc-pack.json
 - name: mod-list
   image: kalka/packmaker
