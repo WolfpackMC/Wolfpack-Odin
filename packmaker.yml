@@ -1,0 +1,232 @@
+authors:
+- Kalka
+files:
+- location: overrides
+forge: 35.1.37
+minecraft: 1.16.5
+mods:
+- ctm:
+    url: 'https://media.forgecdn.net/files/3137/659/CTM-MC1.16.1-1.1.2.6.jar'
+- jei:
+- mouse-tweaks:
+    clientonly: true
+- reauth:
+    clientonly: true
+- just-enough-resources-jer:
+    clientonly: true
+- toast-control:
+    clientonly: true
+- randompatches-forge:
+- better-advancements:
+    clientonly: true
+- default-options:
+    clientonly: true
+- enchantment-descriptions:
+    clientonly: true
+- xaeros-minimap:
+    clientonly: true
+- jei-integration:
+- xaeros-world-map:
+- its-the-little-things:
+    clientonly: true
+- ding:
+    clientonly: true
+- craftpresence:
+    clientonly: true
+- overloaded-armor-bar:
+- antighost:
+    clientonly: true
+- emojiful:
+    clientonly: true
+- let-sleeping-dogs-lie:
+    clientonly: true
+- more-overlays-updated:
+    clientonly: true
+- kubejs:
+- kubejs-blood-magic:
+- kubejs-create:
+- kubejs-mekanism:
+- rftools-power:
+- create:
+- polymorph:
+- bad-wither-no-cookie-reloaded:
+- extra-disks:
+- cosmetic-armor-reworked:
+- simply-jetpacks-2:
+- absent-by-design:
+- morpheus:
+- zerocore:
+- botania:
+- tetra:
+- powah:
+- thermal-foundation:
+- lumberjack:
+- ftb-gui-library:
+- woot:
+- mekanism-additions:
+- ftb-teams:
+- mekanism:
+- mekanism-generators:
+- buzzier-bees:
+- mekanism-tools:
+- cofh-core:
+- ender-storage-1-8:
+- thermal-expansion:
+- terraforged:
+- abnormals-core:
+- waystones:
+- placebo:
+- jade:
+- jaopca:
+- rftools-builder:
+- tool-belt:
+- gravestone-mod:
+- bookshelf:
+- cc-tweaked:
+- forbidden-arcanus:
+- openblocks-elevator:
+- extreme-reactors:
+- ranged-pumps:
+- construction-wand:
+- building-gadgets:
+- ai-improvements:
+- rftools-base:
+- endergetic:
+- ftb-backups:
+- ftb-chunks:
+- yungs-api:
+- light-overlay:
+- morph-o-tool:
+- rftools-storage:
+- autumnity:
+- refined-storage:
+- curious-elytra:
+- chocolate-fix:
+- jei-integration:
+- curios:
+- wither-skeleton-tweaks:
+- crafttweaker:
+- snow-under-trees:
+- oh-the-biomes-youll-go:
+- emojiful:
+- yungs-better-caves:
+- quark:
+- industrial-foregoing:
+- autoreglib:
+- torchmaster:
+- architectury-forge:
+- mcjtylib:
+- mining-gadgets:
+- mantle:
+- xaeros-world-map:
+- better-burning:
+- ftb-essentials:
+- biomes-o-plenty:
+- compact-machines:
+- controlling:
+- forgiving-void:
+- angel-ring:
+- blood-magic:
+- yungs-better-mineshafts-forge:
+- enchantment-descriptions:
+- cooking-for-blockheads:
+- swingthroughgrass:
+- attributefix:
+- atmospheric:
+- mod-name-tooltip:
+- kotlin-for-forge:
+- fastworkbench:
+- appleskin:
+- fast-leaf-decay:
+- apotheosis:
+- bountiful:
+- jei:
+- iron-chests:
+- lollipop:
+- cloth-config-forge:
+- valkyrielib:
+- overloaded-armor-bar:
+- caelus:
+- patchouli:
+- fastfurnace:
+- mgui:
+- performant:
+- observerlib:
+- dark-utilities:
+- runelic:
+- rftools-utility:
+- server-tab-info:
+- decorative-blocks:
+- akashic-tome:
+- just-enough-calculation:
+- refined-storage-addons:
+- titanium:
+- upgrade-aquatic:
+- dynamic-surroundings:
+- storage-drawers:
+- curio-of-undying:
+- clumps:
+- chisels-bits:
+- coloured-tooltips:
+- curious-shulker-boxes:
+- xaeros-minimap:
+- codechicken-lib-1-8:
+- trashslot:
+- natures-compass:
+- netherportalfix:
+- scannable:
+- astral-sorcery:
+- mystical-world:
+- jeitweaker:
+- ftb-ultimine:
+- ars-nouveau:
+- charm-reforged:
+- simply-light:
+- simply-backpacks:
+- redstone-gauges-and-switches:
+- eidolon:
+- productivebees:
+- mmmmmmmmmmmm:
+- alchemistry:
+- the-bumblezone-forge:
+- space-bosstools:
+- obfuscate:
+- abnormals-delight:
+- abundance:
+- citadel:
+- alexs-mobs:
+- bed-benefits:
+- berry-good:
+- better-badlands:
+- blockcarpentry:
+- carry-on:
+- dash:
+- leap:
+- personality:
+- rs-requestify:
+- decorative-blocks-modded-compat:
+- druidcraft:
+- environmental:
+- extended-lights-mod:
+- extra-boats:
+- farmers-delight:
+- culinary-construct:
+- simple-farming:
+- ferritecore:
+- torchslabs-mod:
+- supplementaries:
+- savage-and-ravage:
+- the-mighty-architect:
+- save-my-stronghold:
+- fastworkbench-minus-replacement:
+- worldedit:
+- spark:
+    serveronly: true
+    url: 'https://ci.lucko.me/job/spark/lastSuccessfulBuild/artifact/spark-forge/build/libs/spark-forge.jar'
+- dynmap:
+    serveronly: true
+    url: 'https://dynmap.us/builds/dynmap/Dynmap-3.1-SNAPSHOT-forge-1.16.5.jar'
+name: Wolfpack-Odin
+resourcepacks: []
+title: Wolfpack-Odin
+version: 1.0.0
