@@ -4,27 +4,27 @@ name: packmaker
 
 steps:
 - name: pre-lock
-  image: kalka/packmaker
+  image: archlinux:base-devel
   commands:
+  - pacman -Syyu python git neofetch zip --noconfirm
+  - neofetch
   - python -VVV
-  - pip install aiohttp[speedups]
   - curl -L 'https://get.kalka.io/curseforge.db' > curseforge.db
   - git clone https://git.kalka.io/kalka/wolfpackmaker
-
+  - pip install -r wolfpackmaker/requirements.txt
+  - pip install git+https://git.kalka.io/kalka/packmaker.git
 - name: lock
-  image: kalka/packmaker
+  image: archlinux:base-devel
   commands:
   - packmaker -vvvv --config wolfpackmaker/packmaker.conf lock
-
 - name: package
-  image: kalka/packmaker
+  image: archlinux:base-devel
   commands:
   - zip -r Wolfpack-Odin.zip wolfpackmaker/requirements.txt wolfpackmaker/wolfpackmaker.py wolfpackmaker/wolfpackmaker.bat .minecraft instance.cfg mmc-pack.json wolfpackodin.png
   - zip -r config.zip .minecraft mmc-pack.json
 - name: mod-list
-  image: kalka/packmaker
+  image: archlinux:base-devel
   commands:
-  - python -VVV
   - python wolfpackmaker/raw_mod_list.py wolfpack-odin
 - name: upload
   image: plugins/gitea-release
