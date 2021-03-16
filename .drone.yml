@@ -6,26 +6,23 @@ steps:
 - name: pre-lock
   image: archlinux:base-devel
   commands:
-  - pacman -Syyu python git neofetch zip --noconfirm
   - neofetch
   - python -VVV
   - curl -L 'https://get.kalka.io/curseforge.db' > curseforge.db
   - git clone https://git.kalka.io/kalka/wolfpackmaker
-  - python -m ensurepip
-  - python -m pip install --upgrade pip
   - python -m pip install -r wolfpackmaker/requirements.txt
   - python -m pip install git+https://git.kalka.io/kalka/packmaker.git
 - name: lock
-  image: archlinux:base-devel
+  image: kalka/drone-entrypoint
   commands:
   - packmaker -vvvv --config wolfpackmaker/packmaker.conf lock
 - name: package
-  image: archlinux:base-devel
+  image: kalka/drone-entrypoint
   commands:
   - zip -r Wolfpack-Odin.zip wolfpackmaker/requirements.txt wolfpackmaker/wolfpackmaker.py wolfpackmaker/wolfpackmaker.bat .minecraft instance.cfg mmc-pack.json wolfpackodin.png
   - zip -r config.zip .minecraft mmc-pack.json
 - name: mod-list
-  image: archlinux:base-devel
+  image: kalka/drone-entrypoint
   commands:
   - python wolfpackmaker/raw_mod_list.py wolfpack-odin
 - name: upload
