@@ -11,6 +11,8 @@ steps:
   - python -VVV
   - curl -L 'https://get.kalka.io/curseforge.db' > curseforge.db
   - git clone https://git.kalka.io/kalka/wolfpackmaker
+  - python -m ensurepip
+  - python -m pip install --upgrade pip
   - python -m pip install -r wolfpackmaker/requirements.txt
   - python -m pip install git+https://git.kalka.io/kalka/packmaker.git
 - name: lock
