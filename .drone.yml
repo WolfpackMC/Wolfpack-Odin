@@ -6,6 +6,10 @@ steps:
 - name: pre-lock
   image: kalka/drone-entrypoint
   commands:
+  - pip install virtualenv
+  - virtualenv wolfpackmaker_build
+  - export VIRTUAL_ENV=/drone/src/python
+  - export PATH="$VIRTUAL_ENV/bin:$PATH"
   - neofetch
   - python -VVV
   - curl -L 'https://get.kalka.io/curseforge.db' > curseforge.db
@@ -15,6 +19,8 @@ steps:
 - name: lock
   image: kalka/drone-entrypoint
   commands:
+  - export VIRTUAL_ENV=/drone/src/python
+  - export PATH="$VIRTUAL_ENV/bin:$PATH"
   - packmaker -vvvv --config wolfpackmaker/packmaker.conf lock
 - name: package
   image: kalka/drone-entrypoint
@@ -24,6 +30,8 @@ steps:
 - name: mod-list
   image: kalka/drone-entrypoint
   commands:
+  - export VIRTUAL_ENV=/drone/src/python
+  - export PATH="$VIRTUAL_ENV/bin:$PATH"
   - python wolfpackmaker/raw_mod_list.py wolfpack-odin
 - name: upload
   image: plugins/gitea-release
