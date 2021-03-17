@@ -216,13 +216,9 @@ mods:
 - the-mighty-architect:
 - save-my-stronghold:
 - fastworkbench-minus-replacement:
-- worldedit:
 - spark:
     serveronly: true
     url: 'https://ci.lucko.me/job/spark/lastSuccessfulBuild/artifact/spark-forge/build/libs/spark-forge.jar'
-- dynmap:
-    serveronly: true
-    url: 'https://dynmap.us/builds/dynmap/Dynmap-3.1-SNAPSHOT-forge-1.16.5.jar'
 name: Wolfpack-Odin
 resourcepacks: []
 title: Wolfpack-Odin
