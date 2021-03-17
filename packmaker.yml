@@ -46,7 +46,6 @@ mods:
 - kubejs-blood-magic:
 - kubejs-create:
 - kubejs-mekanism:
-- rftools-power:
 - create:
 - polymorph:
 - bad-wither-no-cookie-reloaded:
@@ -78,7 +77,6 @@ mods:
 - placebo:
 - jade:
 - jaopca:
-- rftools-builder:
 - tool-belt:
 - gravestone-mod:
 - bookshelf:
@@ -90,13 +88,11 @@ mods:
 - construction-wand:
 - building-gadgets:
 - ai-improvements:
-- rftools-base:
 - endergetic:
 - ftb-backups:
 - ftb-chunks:
 - yungs-api:
 - morph-o-tool:
-- rftools-storage:
 - autumnity:
 - refined-storage:
 - curious-elytra:
@@ -153,7 +149,6 @@ mods:
 - observerlib:
 - dark-utilities:
 - runelic:
-- rftools-utility:
 - server-tab-info:
 - decorative-blocks:
 - akashic-tome:
