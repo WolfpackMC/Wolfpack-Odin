@@ -219,6 +219,8 @@ mods:
 - spark:
     serveronly: true
     url: 'https://ci.lucko.me/job/spark/lastSuccessfulBuild/artifact/spark-forge/build/libs/spark-forge.jar'
+- worldedit:
+    servonly: true
 name: Wolfpack-Odin
 resourcepacks: []
 title: Wolfpack-Odin
