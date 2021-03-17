@@ -40,7 +40,7 @@ mods:
     clientonly: true
 - let-sleeping-dogs-lie:
     clientonly: true
-- more-overlays-updated:
+- light-overlay:
     clientonly: true
 - kubejs:
 - kubejs-blood-magic:
@@ -95,7 +95,6 @@ mods:
 - ftb-backups:
 - ftb-chunks:
 - yungs-api:
-- light-overlay:
 - morph-o-tool:
 - rftools-storage:
 - autumnity:
@@ -203,7 +202,6 @@ mods:
 - rs-requestify:
 - decorative-blocks-modded-compat:
 - druidcraft:
-- environmental:
 - extended-lights-mod:
 - extra-boats:
 - farmers-delight:
@@ -216,6 +214,7 @@ mods:
 - the-mighty-architect:
 - save-my-stronghold:
 - fastworkbench-minus-replacement:
+- tellme:
 - spark:
     serveronly: true
     url: 'https://ci.lucko.me/job/spark/lastSuccessfulBuild/artifact/spark-forge/build/libs/spark-forge.jar'
