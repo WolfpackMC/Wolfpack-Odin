@@ -160,7 +160,6 @@ mods:
 - refined-storage-addons:
 - titanium:
 - upgrade-aquatic:
-- dynamic-surroundings:
 - curio-of-undying:
 - clumps:
 - chisels-bits:
@@ -168,55 +167,59 @@ mods:
 - curious-shulker-boxes:
 - xaeros-minimap:
 - trashslot:
-# - natures-compass:
-# - netherportalfix:
-# - scannable:
-# - astral-sorcery:
-# - mystical-world:
-# - jeitweaker:
-# - ftb-ultimine:
-# - ars-nouveau:
-# - charm-reforged:
-# - simply-light:
-# - simply-backpacks:
-# - redstone-gauges-and-switches:
-# - eidolon:
-# - productivebees:
-# - mmmmmmmmmmmm:
-# - alchemistry:
-# - the-bumblezone-forge:
-# - space-bosstools:
-# - obfuscate:
-# - abnormals-delight:
-# - abundance:
-# - bed-benefits:
-# - berry-good:
-# - better-badlands:
-# - blockcarpentry:
-# - carry-on:
-# - dash:
-# - leap:
-# - rs-requestify:
-# - decorative-blocks-modded-compat:
-# - druidcraft:
-# - extended-lights-mod:
-# - extra-boats:
-# - farmers-delight:
-# - culinary-construct:
-# - simple-farming:
-# - ferritecore:
-# - torchslabs-mod:
-# - supplementaries:
-# - savage-and-ravage:
-# - the-mighty-architect:
-# - save-my-stronghold:
-# - fastworkbench-minus-replacement:
-# - tellme:
-# - spark:
-#     serveronly: true
-#     url: 'https://ci.lucko.me/job/spark/lastSuccessfulBuild/artifact/spark-forge/build/libs/spark-forge.jar'
-# - worldedit:
-#     serveronly: true
+- natures-compass:
+- netherportalfix:
+- scannable:
+- astral-sorcery:
+- mystical-world:
+- jeitweaker:
+- ftb-ultimine:
+- ars-nouveau:
+- charm-reforged:
+- simply-light:
+- simply-backpacks:
+- redstone-gauges-and-switches:
+- eidolon:
+- productivebees:
+- mmmmmmmmmmmm:
+- alchemistry:
+- the-bumblezone-forge:
+- space-bosstools:
+- obfuscate:
+- abnormals-delight:
+- abundance:
+- bed-benefits:
+- berry-good:
+- better-badlands:
+- blockcarpentry:
+- carry-on:
+- dash:
+- leap:
+- rs-requestify:
+- decorative-blocks-modded-compat:
+- druidcraft:
+- extended-lights-mod:
+- extra-boats:
+- farmers-delight:
+- culinary-construct:
+- simple-farming:
+- ferritecore:
+- torchslabs-mod:
+- supplementaries:
+- savage-and-ravage:
+- the-mighty-architect:
+- save-my-stronghold:
+- fastworkbench-minus-replacement:
+- alexs-mobs:
+- citadel:
+- personality:
+- simply-jetpacks-2:
+- tellme:
+- spark:
+    serveronly: true
+    url: 'https://ci.lucko.me/job/spark/lastSuccessfulBuild/artifact/spark-forge/build/libs/spark-forge.jar'
+- worldedit:
+    serveronly: true
 name: Wolfpack-Odin
 resourcepacks: []
 title: Wolfpack-Odin
