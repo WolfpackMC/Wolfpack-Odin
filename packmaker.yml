@@ -149,43 +149,43 @@ mods:
 - fastfurnace:
 - mgui:
 - performant:
-# - observerlib:
-# - dark-utilities:
-# - runelic:
-# - rftools-utility:
-# - server-tab-info:
-# - decorative-blocks:
-# - akashic-tome:
-# - just-enough-calculation:
-# - refined-storage-addons:
-# - titanium:
-# - upgrade-aquatic:
-# - dynamic-surroundings:
-# - curio-of-undying:
-# - clumps:
-# - chisels-bits:
-# - coloured-tooltips:
-# - curious-shulker-boxes:
-# - xaeros-minimap:
-# - trashslot:
-# - natures-compass:
-# - netherportalfix:
-# - scannable:
-# - astral-sorcery:
-# - mystical-world:
-# - jeitweaker:
-# - ftb-ultimine:
-# - ars-nouveau:
-# - charm-reforged:
-# - simply-light:
-# - simply-backpacks:
-# - redstone-gauges-and-switches:
-# - eidolon:
-# - productivebees:
-# - mmmmmmmmmmmm:
-# - alchemistry:
-# - the-bumblezone-forge:
-# - space-bosstools:
+- observerlib:
+- dark-utilities:
+- runelic:
+- rftools-utility:
+- server-tab-info:
+- decorative-blocks:
+- akashic-tome:
+- just-enough-calculation:
+- refined-storage-addons:
+- titanium:
+- upgrade-aquatic:
+- dynamic-surroundings:
+- curio-of-undying:
+- clumps:
+- chisels-bits:
+- coloured-tooltips:
+- curious-shulker-boxes:
+- xaeros-minimap:
+- trashslot:
+- natures-compass:
+- netherportalfix:
+- scannable:
+- astral-sorcery:
+- mystical-world:
+- jeitweaker:
+- ftb-ultimine:
+- ars-nouveau:
+- charm-reforged:
+- simply-light:
+- simply-backpacks:
+- redstone-gauges-and-switches:
+- eidolon:
+- productivebees:
+- mmmmmmmmmmmm:
+- alchemistry:
+- the-bumblezone-forge:
+- space-bosstools:
 # - obfuscate:
 # - abnormals-delight:
 # - abundance:
