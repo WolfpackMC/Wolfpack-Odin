@@ -119,36 +119,36 @@ mods:
 - xaeros-world-map:
 - better-burning:
 - ftb-essentials:
-# - biomes-o-plenty:
-# - compact-machines:
-# - controlling:
-# - forgiving-void:
-# - angel-ring:
-# - blood-magic:
-# - yungs-better-mineshafts-forge:
-# - enchantment-descriptions:
-# - cooking-for-blockheads:
-# - swingthroughgrass:
-# - attributefix:
-# - atmospheric:
-# - mod-name-tooltip:
-# - kotlin-for-forge:
-# - fastworkbench:
-# - appleskin:
-# - fast-leaf-decay:
-# - apotheosis:
-# - bountiful:
-# - jei:
-# - iron-chests:
-# - lollipop:
-# - cloth-config-forge:
-# - valkyrielib:
-# - overloaded-armor-bar:
-# - caelus:
-# - patchouli:
-# - fastfurnace:
-# - mgui:
-# - performant:
+- biomes-o-plenty:
+- compact-machines:
+- controlling:
+- forgiving-void:
+- angel-ring:
+- blood-magic:
+- yungs-better-mineshafts-forge:
+- enchantment-descriptions:
+- cooking-for-blockheads:
+- swingthroughgrass:
+- attributefix:
+- atmospheric:
+- mod-name-tooltip:
+- kotlin-for-forge:
+- fastworkbench:
+- appleskin:
+- fast-leaf-decay:
+- apotheosis:
+- bountiful:
+- jei:
+- iron-chests:
+- lollipop:
+- cloth-config-forge:
+- valkyrielib:
+- overloaded-armor-bar:
+- caelus:
+- patchouli:
+- fastfurnace:
+- mgui:
+- performant:
 # - observerlib:
 # - dark-utilities:
 # - runelic:
