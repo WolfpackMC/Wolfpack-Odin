@@ -119,104 +119,104 @@ mods:
 - xaeros-world-map:
 - better-burning:
 - ftb-essentials:
-- biomes-o-plenty:
-- compact-machines:
-- controlling:
-- forgiving-void:
-- angel-ring:
-- blood-magic:
-- yungs-better-mineshafts-forge:
-- enchantment-descriptions:
-- cooking-for-blockheads:
-- swingthroughgrass:
-- attributefix:
-- atmospheric:
-- mod-name-tooltip:
-- kotlin-for-forge:
-- fastworkbench:
-- appleskin:
-- fast-leaf-decay:
-- apotheosis:
-- bountiful:
-- jei:
-- iron-chests:
-- lollipop:
-- cloth-config-forge:
-- valkyrielib:
-- overloaded-armor-bar:
-- caelus:
-- patchouli:
-- fastfurnace:
-- mgui:
-- performant:
-- observerlib:
-- dark-utilities:
-- runelic:
-- rftools-utility:
-- server-tab-info:
-- decorative-blocks:
-- akashic-tome:
-- just-enough-calculation:
-- refined-storage-addons:
-- titanium:
-- upgrade-aquatic:
-- dynamic-surroundings:
-- curio-of-undying:
-- clumps:
-- chisels-bits:
-- coloured-tooltips:
-- curious-shulker-boxes:
-- xaeros-minimap:
-- trashslot:
-- natures-compass:
-- netherportalfix:
-- scannable:
-- astral-sorcery:
-- mystical-world:
-- jeitweaker:
-- ftb-ultimine:
-- ars-nouveau:
-- charm-reforged:
-- simply-light:
-- simply-backpacks:
-- redstone-gauges-and-switches:
-- eidolon:
-- productivebees:
-- mmmmmmmmmmmm:
-- alchemistry:
-- the-bumblezone-forge:
-- space-bosstools:
-- obfuscate:
-- abnormals-delight:
-- abundance:
-- bed-benefits:
-- berry-good:
-- better-badlands:
-- blockcarpentry:
-- carry-on:
-- dash:
-- leap:
-- rs-requestify:
-- decorative-blocks-modded-compat:
-- druidcraft:
-- extended-lights-mod:
-- extra-boats:
-- farmers-delight:
-- culinary-construct:
-- simple-farming:
-- ferritecore:
-- torchslabs-mod:
-- supplementaries:
-- savage-and-ravage:
-- the-mighty-architect:
-- save-my-stronghold:
-- fastworkbench-minus-replacement:
-- tellme:
-- spark:
-    serveronly: true
-    url: 'https://ci.lucko.me/job/spark/lastSuccessfulBuild/artifact/spark-forge/build/libs/spark-forge.jar'
-- worldedit:
-    serveronly: true
+# - biomes-o-plenty:
+# - compact-machines:
+# - controlling:
+# - forgiving-void:
+# - angel-ring:
+# - blood-magic:
+# - yungs-better-mineshafts-forge:
+# - enchantment-descriptions:
+# - cooking-for-blockheads:
+# - swingthroughgrass:
+# - attributefix:
+# - atmospheric:
+# - mod-name-tooltip:
+# - kotlin-for-forge:
+# - fastworkbench:
+# - appleskin:
+# - fast-leaf-decay:
+# - apotheosis:
+# - bountiful:
+# - jei:
+# - iron-chests:
+# - lollipop:
+# - cloth-config-forge:
+# - valkyrielib:
+# - overloaded-armor-bar:
+# - caelus:
+# - patchouli:
+# - fastfurnace:
+# - mgui:
+# - performant:
+# - observerlib:
+# - dark-utilities:
+# - runelic:
+# - rftools-utility:
+# - server-tab-info:
+# - decorative-blocks:
+# - akashic-tome:
+# - just-enough-calculation:
+# - refined-storage-addons:
+# - titanium:
+# - upgrade-aquatic:
+# - dynamic-surroundings:
+# - curio-of-undying:
+# - clumps:
+# - chisels-bits:
+# - coloured-tooltips:
+# - curious-shulker-boxes:
+# - xaeros-minimap:
+# - trashslot:
+# - natures-compass:
+# - netherportalfix:
+# - scannable:
+# - astral-sorcery:
+# - mystical-world:
+# - jeitweaker:
+# - ftb-ultimine:
+# - ars-nouveau:
+# - charm-reforged:
+# - simply-light:
+# - simply-backpacks:
+# - redstone-gauges-and-switches:
+# - eidolon:
+# - productivebees:
+# - mmmmmmmmmmmm:
+# - alchemistry:
+# - the-bumblezone-forge:
+# - space-bosstools:
+# - obfuscate:
+# - abnormals-delight:
+# - abundance:
+# - bed-benefits:
+# - berry-good:
+# - better-badlands:
+# - blockcarpentry:
+# - carry-on:
+# - dash:
+# - leap:
+# - rs-requestify:
+# - decorative-blocks-modded-compat:
+# - druidcraft:
+# - extended-lights-mod:
+# - extra-boats:
+# - farmers-delight:
+# - culinary-construct:
+# - simple-farming:
+# - ferritecore:
+# - torchslabs-mod:
+# - supplementaries:
+# - savage-and-ravage:
+# - the-mighty-architect:
+# - save-my-stronghold:
+# - fastworkbench-minus-replacement:
+# - tellme:
+# - spark:
+#     serveronly: true
+#     url: 'https://ci.lucko.me/job/spark/lastSuccessfulBuild/artifact/spark-forge/build/libs/spark-forge.jar'
+# - worldedit:
+#     serveronly: true
 name: Wolfpack-Odin
 resourcepacks: []
 title: Wolfpack-Odin
