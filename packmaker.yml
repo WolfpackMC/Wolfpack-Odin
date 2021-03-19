@@ -131,7 +131,6 @@ mods:
 - swingthroughgrass:
 - attributefix:
 - atmospheric:
-- mod-name-tooltip:
 - kotlin-for-forge:
 - fastworkbench:
 - appleskin:
@@ -221,6 +220,7 @@ mods:
 - a-lib:
 - geckolib:
 - chemlib:
+- titles:
 - spark:
     serveronly: true
     url: 'https://ci.lucko.me/job/spark/lastSuccessfulBuild/artifact/spark-forge/build/libs/spark-forge.jar'
