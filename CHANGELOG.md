@@ -19,7 +19,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Removed
 - **Mod**: Environmental
 - **Mod**: More Overlays
-- **Mod:**: Dynamic Surroundings temporarily, as a result of [this issue](https://github.com/OreCruncher/DynamicSurroundings/issues/696).
+- **Mod**: Dynamic Surroundings temporarily, as a result of [this issue](https://github.com/OreCruncher/DynamicSurroundings/issues/696).
 - **Mod**: Storage Drawers temporarily, due to immense console spam as a result of a misconfiguration in the mod internally, which can only be fixed by the mod author.
 - **Mod**: More Overlays (Light Overlay already exists)
 
