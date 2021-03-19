@@ -215,6 +215,12 @@ mods:
 - personality:
 - simply-jetpacks-2:
 - tellme:
+- rhino:
+- codechicken-lib-1-8:
+- valhesia-core:
+- a-lib:
+- geckolib:
+- chemlib:
 - spark:
     serveronly: true
     url: 'https://ci.lucko.me/job/spark/lastSuccessfulBuild/artifact/spark-forge/build/libs/spark-forge.jar'
