@@ -13,6 +13,8 @@ global["UNIFY_ORE_GEN"] = true
 global["unifypriorities"] = [
     "thermal",
     "mekanism",
+    "create",
+    "jaopca",
     "silents_mechanisms",
     "silentgems",
     "chemlib"
