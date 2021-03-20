@@ -42,6 +42,8 @@ mods:
     clientonly: true
 - light-overlay:
     clientonly: true
+- sound-filters:
+    clientonly: true
 - kubejs:
 - kubejs-blood-magic:
 - kubejs-create:
@@ -216,7 +218,9 @@ mods:
 - tellme:
 - rhino:
 - codechicken-lib-1-8:
-- valhesia-core:
+- valhelsia-core:
+- valhelsia-structures:
+- inventory-tweaks-renewed:
 - a-lib:
 - geckolib:
 - chemlib:
