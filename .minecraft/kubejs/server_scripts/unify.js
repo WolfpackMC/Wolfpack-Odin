@@ -11,8 +11,8 @@ global["UNIFY_ORE_GEN"] = true
 
 // Mod priorities
 global["unifypriorities"] = [
-    "mekanism",
     "thermal",
+    "mekanism",
     "silents_mechanisms",
     "silentgems",
     "chemlib"
