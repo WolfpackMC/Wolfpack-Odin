@@ -235,13 +235,14 @@ mods:
 - extrastorage:
 - travel-anchors:
 - login-shield:
-- bamboo-everything-forge:
 - trash-cans:
 - geckolib:
 - chemlib:
 - titles:
 - backpacked:
 - backpacker:
+- bamboo-everything-forge:
+    url: 'https://media.forgecdn.net/files/3071/140/bambooeverything-1.16.3-forge-1.0.0.jar'
 - spark:
     serveronly: true
     url: 'https://ci.lucko.me/job/spark/lastSuccessfulBuild/artifact/spark-forge/build/libs/spark-forge.jar'
