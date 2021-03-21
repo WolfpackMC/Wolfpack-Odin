@@ -46,7 +46,7 @@ mods:
     clientonly: true
 - no-potion-shift:
     clientonly: true
-- clear-skies:
+- clear-skies-forge-port:
     clientonly: true
 - nofog:
     clientonly: true
