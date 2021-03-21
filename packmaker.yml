@@ -29,8 +29,6 @@ mods:
 - xaeros-world-map:
 - its-the-little-things:
     clientonly: true
-- ding:
-    clientonly: true
 - craftpresence:
     clientonly: true
 - overloaded-armor-bar:
@@ -41,8 +39,6 @@ mods:
 - let-sleeping-dogs-lie:
     clientonly: true
 - light-overlay:
-    clientonly: true
-- sound-filters:
     clientonly: true
 - no-potion-shift:
     clientonly: true
@@ -244,6 +240,8 @@ mods:
 - titles:
 - backpacked:
 - backpacker:
+- dynamic-surroundings:
+    url: 'https://github.com/OreCruncher/DynamicSurroundings2/releases/download/1.16.4-4.0.4.1/DynamicSurroundings-1.16.4-4.0.4.1.jar'
 - bamboo-everything-forge:
     url: 'https://media.forgecdn.net/files/3071/140/bambooeverything-1.16.3-forge-1.0.0.jar'
 - spark:
