@@ -196,6 +196,7 @@ mods:
 - carry-on:
 - dash:
 - leap:
+- step:
 - rs-requestify:
 - decorative-blocks-modded-compat:
 - druidcraft:
@@ -223,6 +224,14 @@ mods:
 - advanced-chimneys:
 - inventory-tweaks-renewed:
 - a-lib:
+- refined-storage-addons:
+- click-machine:
+- extrastorage:
+- travel-anchors:
+- login-shield:
+- bamboo-everything-forge:
+- trash-cans:
+- bamboo-blocks:
 - geckolib:
 - chemlib:
 - titles:
