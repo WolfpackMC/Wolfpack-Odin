@@ -64,6 +64,10 @@ mods:
 - powah:
 - thermal-foundation:
     url: 'https://media.forgecdn.net/files/3247/1/thermal_foundation-1.16.4-1.2.0.jar'
+- thermal-locomotion:
+    url: 'https://media.forgecdn.net/files/3247/3/thermal_locomotion-1.16.4-1.2.0.jar'
+- thermal-innovation:
+    url: 'https://media.forgecdn.net/files/3247/2/thermal_innovation-1.16.4-1.2.0.jar'
 - lumberjack:
 - ftb-gui-library:
 - woot:
