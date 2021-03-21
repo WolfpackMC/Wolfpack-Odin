@@ -44,6 +44,12 @@ mods:
     clientonly: true
 - sound-filters:
     clientonly: true
+- no-potion-shift:
+    clientonly: true
+- clear-skies:
+    clientonly: true
+- nofog:
+    clientonly: true
 - kubejs:
 - kubejs-blood-magic:
 - kubejs-create:
@@ -166,6 +172,8 @@ mods:
 - chisels-bits:
 - coloured-tooltips:
 - curious-shulker-boxes:
+- curious-armor-stands:
+- curious-jetpacks:
 - xaeros-minimap:
 - trashslot:
 - natures-compass:
@@ -178,7 +186,6 @@ mods:
 - ars-nouveau:
 - charm-reforged:
 - simply-light:
-- simply-backpacks:
 - redstone-gauges-and-switches:
 - eidolon:
 - productivebees:
@@ -235,6 +242,8 @@ mods:
 - geckolib:
 - chemlib:
 - titles:
+- backpacked:
+- backpacker:
 - spark:
     serveronly: true
     url: 'https://ci.lucko.me/job/spark/lastSuccessfulBuild/artifact/spark-forge/build/libs/spark-forge.jar'
