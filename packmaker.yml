@@ -167,7 +167,6 @@ mods:
 - upgrade-aquatic:
 - curio-of-undying:
 - clumps:
-- chisels-bits:
 - coloured-tooltips:
 - curious-shulker-boxes:
 - curious-armor-stands:
@@ -201,7 +200,6 @@ mods:
 - dash:
 - leap:
 - step:
-- rs-requestify:
 - decorative-blocks-modded-compat:
 - druidcraft:
 - extended-lights-mod:
@@ -239,6 +237,9 @@ mods:
 - titles:
 - backpacked:
 - backpacker:
+- immersive-engineering:
+- kubejs-immersive-engineering:
+- immersive-petroleum:
 - dynamic-surroundings:
     url: 'https://github.com/OreCruncher/DynamicSurroundings2/releases/download/1.16.4-4.0.4.1/DynamicSurroundings-1.16.4-4.0.4.1.jar'
 - bamboo-everything-forge:

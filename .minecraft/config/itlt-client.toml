@@ -9,7 +9,7 @@
 #Display
 [Display]
 	#Change this value to change the name of the MineCraft window
-	windowDisplayTitle = "Wolfpack Odin (Minecraft 1.16)"
+	windowDisplayTitle = "Wolfpack Odin (Minecraft 1.16.5)"
 	#Set to true to load a custom icon from config\itlt\icon.png
 	loadCustomIcon = true
 	#Set to true to attempt to use the icon assigned to the modpack by the technic launcher. 
