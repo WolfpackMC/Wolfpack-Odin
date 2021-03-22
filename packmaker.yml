@@ -23,10 +23,7 @@ mods:
     clientonly: true
 - enchantment-descriptions:
     clientonly: true
-- xaeros-minimap:
-    clientonly: true
 - jei-integration:
-- xaeros-world-map:
 - its-the-little-things:
     clientonly: true
 - craftpresence:
@@ -46,6 +43,7 @@ mods:
     clientonly: true
 - nofog:
     clientonly: true
+- journeymap:
 - kubejs:
 - kubejs-blood-magic:
 - kubejs-create:
@@ -234,7 +232,6 @@ mods:
 - trash-cans:
 - geckolib:
 - chemlib:
-- titles:
 - backpacked:
 - backpacker:
 - immersive-engineering:
