@@ -36,6 +36,8 @@ mods:
 - light-overlay:
     clientonly: true
 - no-potion-shift:
+    clientonly: true
+    url: 'https://get.kalka.io/mods/nopotionshift_1.16.4-1.6.0.jar'
 - clear-skies-forge-port:
 - nofog:
 - journeymap:
