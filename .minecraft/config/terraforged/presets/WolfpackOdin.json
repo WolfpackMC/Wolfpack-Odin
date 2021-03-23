@@ -12,14 +12,14 @@
     "vanillaSprings": true,
     "vanillaLavaLakes": true,
     "vanillaLavaSprings": false,
-    "mountainBiomeUsage": 0.853,
+    "mountainBiomeUsage": 0.852,
     "volcanoBiomeUsage": 0.855
   },
   "dimensions": {
     "bedrockLayer": {
       "material": "minecraft:bedrock",
-      "minDepth": 1,
-      "variance": 4
+      "minDepth": 0,
+      "variance": 0
     },
     "dimensions": {
       "nether": "default",
@@ -37,24 +37,6 @@
       "disabled": false
     },
     "structures": {
-      "astralsorcery:ancient_shrine": {
-        "spacing": 18,
-        "separation": 4,
-        "salt": 682195648,
-        "disabled": false
-      },
-      "astralsorcery:desert_shrine": {
-        "spacing": 18,
-        "separation": 4,
-        "salt": 1384822272,
-        "disabled": false
-      },
-      "astralsorcery:small_shrine": {
-        "spacing": 18,
-        "separation": 4,
-        "salt": 1549795968,
-        "disabled": false
-      },
       "autumnity:maple_witch_hut": {
         "spacing": 32,
         "separation": 8,
@@ -65,24 +47,6 @@
         "spacing": 1,
         "separation": 0,
         "salt": 593751808,
-        "disabled": false
-      },
-      "eidolon:catacomb": {
-        "spacing": 11,
-        "separation": 7,
-        "salt": 1347,
-        "disabled": false
-      },
-      "eidolon:lab": {
-        "spacing": 7,
-        "separation": 5,
-        "salt": 1337,
-        "disabled": false
-      },
-      "eidolon:stray_tower": {
-        "spacing": 16,
-        "separation": 8,
-        "salt": 1341,
         "disabled": false
       },
       "minecraft:buried_treasure": {
@@ -168,38 +132,32 @@
         "separation": 8,
         "salt": 10387312,
         "disabled": false
-      },
-      "quark:big_dungeon": {
-        "spacing": 20,
-        "separation": 11,
-        "salt": 79234824,
-        "disabled": false
       }
     }
   },
   "world": {
     "continent": {
       "continentType": "MULTI",
-      "continentShape": "EUCLIDEAN",
-      "continentScale": 1223,
+      "continentShape": "MANHATTAN",
+      "continentScale": 2805,
       "continentJitter": 0.8
     },
     "controlPoints": {
-      "deepOcean": 0.1,
-      "shallowOcean": 0.25,
-      "beach": 0.326,
-      "coast": 0.448,
-      "inland": 0.5
+      "deepOcean": 0.097,
+      "shallowOcean": 0.164,
+      "beach": 0.365,
+      "coast": 0.37,
+      "inland": 0.527
     },
     "properties": {
-      "spawnType": "CONTINENT_CENTER",
+      "spawnType": "WORLD_ORIGIN",
       "worldHeight": 256,
       "seaLevel": 63
     }
   },
   "climate": {
     "temperature": {
-      "seedOffset": 0,
+      "seedOffset": 1952912909,
       "scale": 7,
       "falloff": 1,
       "min": 0.0,
@@ -207,7 +165,7 @@
       "bias": -0.004
     },
     "moisture": {
-      "seedOffset": 0,
+      "seedOffset": 898091198,
       "scale": 6,
       "falloff": 1,
       "min": 0.0,
@@ -215,13 +173,13 @@
       "bias": 0.0
     },
     "biomeShape": {
-      "biomeSize": 185,
+      "biomeSize": 341,
       "macroNoiseSize": 8,
       "biomeWarpScale": 150,
       "biomeWarpStrength": 80
     },
     "biomeEdgeShape": {
-      "type": "SIMPLEX",
+      "type": "SIMPLEX2",
       "scale": 24,
       "octaves": 2,
       "gain": 0.5,
@@ -231,7 +189,7 @@
   },
   "terrain": {
     "general": {
-      "terrainSeedOffset": 0,
+      "terrainSeedOffset": -1547983552,
       "terrainRegionSize": 1356,
       "globalVerticalScale": 1.0,
       "globalHorizontalScale": 1.174,
@@ -251,8 +209,8 @@
     },
     "hills": {
       "weight": 2.706,
-      "baseScale": 1.0,
-      "verticalScale": 1.0,
+      "baseScale": 1.123,
+      "verticalScale": 1.519,
       "horizontalScale": 1.0
     },
     "dales": {
@@ -264,65 +222,65 @@
     "plateau": {
       "weight": 2.575,
       "baseScale": 1.0,
-      "verticalScale": 1.0,
+      "verticalScale": 1.003,
       "horizontalScale": 1.0
     },
     "badlands": {
       "weight": 1.493,
       "baseScale": 1.0,
-      "verticalScale": 1.0,
+      "verticalScale": 1.417,
       "horizontalScale": 1.0
     },
     "torridonian": {
       "weight": 3.555,
       "baseScale": 1.0,
-      "verticalScale": 1.0,
+      "verticalScale": 1.286,
       "horizontalScale": 1.0
     },
     "mountains": {
-      "weight": 2.911,
+      "weight": 3.065,
       "baseScale": 1.0,
-      "verticalScale": 1.0,
-      "horizontalScale": 1.0
+      "verticalScale": 3.065,
+      "horizontalScale": 1.597
     },
     "volcano": {
-      "weight": 7.5,
+      "weight": 6.723,
       "baseScale": 1.0,
-      "verticalScale": 1.0,
+      "verticalScale": 1.7,
       "horizontalScale": 1.0
     }
   },
   "rivers": {
-    "seedOffset": 0,
-    "riverCount": 14,
+    "seedOffset": -141206303,
+    "riverCount": 18,
     "mainRivers": {
-      "bedDepth": 5,
-      "minBankHeight": 1,
-      "maxBankHeight": 4,
-      "bedWidth": 8,
-      "bankWidth": 30,
-      "fade": 0.504
-    },
-    "branchRivers": {
-      "bedDepth": 3,
+      "bedDepth": 8,
       "minBankHeight": 1,
       "maxBankHeight": 2,
-      "bedWidth": 4,
-      "bankWidth": 12,
-      "fade": 0.5
+      "bedWidth": 5,
+      "bankWidth": 35,
+      "fade": 0.507
+    },
+    "branchRivers": {
+      "bedDepth": 5,
+      "minBankHeight": 1,
+      "maxBankHeight": 2,
+      "bedWidth": 7,
+      "bankWidth": 20,
+      "fade": 0.208
     },
     "lakes": {
-      "chance": 0.671,
+      "chance": 0.786,
       "minStartDistance": 0.0,
       "maxStartDistance": 0.028,
-      "depth": 8,
+      "depth": 10,
       "sizeMin": 75,
-      "sizeMax": 150,
+      "sizeMax": 169,
       "minBankHeight": 2,
-      "maxBankHeight": 7
+      "maxBankHeight": 3
     },
     "wetlands": {
-      "chance": 0.865,
+      "chance": 0.469,
       "sizeMin": 134,
       "sizeMax": 201
     }
