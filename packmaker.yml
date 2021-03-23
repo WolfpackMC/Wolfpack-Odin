@@ -40,6 +40,7 @@ mods:
     url: 'https://get.kalka.io/mods/nopotionshift_1.16.4-1.6.0-unofficial.jar'
 - entityculling:
     clientonly: true
+    url: 'https://get.kalka.io/mods/entityculling-1.1.0-unofficial.jar'
 - clear-skies-forge-port:
 - nofog:
 - journeymap:
