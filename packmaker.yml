@@ -13,12 +13,10 @@ mods:
 - reauth:
     clientonly: true
 - just-enough-resources-jer:
-    clientonly: true
 - toast-control:
     clientonly: true
 - randompatches-forge:
 - better-advancements:
-    clientonly: true
 - default-options:
     clientonly: true
 - enchantment-descriptions:
@@ -38,11 +36,8 @@ mods:
 - light-overlay:
     clientonly: true
 - no-potion-shift:
-    clientonly: true
 - clear-skies-forge-port:
-    clientonly: true
 - nofog:
-    clientonly: true
 - journeymap:
 - kubejs:
 - kubejs-blood-magic:
