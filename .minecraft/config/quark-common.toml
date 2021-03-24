@@ -1,2 +1,5 @@
 [management]
 	"Inventory Sorting" = false
+
+[world]
+	"Cave Crystal Underground Biome" = false
