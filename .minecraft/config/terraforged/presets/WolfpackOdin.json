@@ -18,8 +18,8 @@
   "dimensions": {
     "bedrockLayer": {
       "material": "minecraft:bedrock",
-      "minDepth": 0,
-      "variance": 0
+      "minDepth": 1,
+      "variance": 1
     },
     "dimensions": {
       "nether": "default",
