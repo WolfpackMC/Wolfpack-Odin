@@ -42,7 +42,7 @@ mods:
     clientonly: true
     url: 'https://get.kalka.io/mods/entityculling-1.1.0-unofficial.jar'
 - xaeros-minimap:
-- xaeros-worldmap:
+- xaeros-world-map:
 - kubejs:
 - kubejs-blood-magic:
 - kubejs-create:
