@@ -41,6 +41,8 @@ mods:
 - entityculling:
     clientonly: true
     url: 'https://get.kalka.io/mods/entityculling-1.1.0-unofficial.jar'
+- more-sound-config:
+    clientonly: true
 - xaeros-minimap:
 - xaeros-world-map:
 - kubejs:
@@ -235,6 +237,9 @@ mods:
 - immersive-engineering:
 - kubejs-immersive-engineering:
 - immersive-petroleum:
+- environmental:
+- bluemap:
+    serveronly: true
 - dynamic-surroundings:
     url: 'https://github.com/OreCruncher/DynamicSurroundings2/releases/download/1.16.4-4.0.4.1/DynamicSurroundings-1.16.4-4.0.4.1.jar'
 - bamboo-everything-forge:
