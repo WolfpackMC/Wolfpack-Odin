@@ -17,7 +17,7 @@ steps:
 - name: package
   image: kalka/drone-entrypoint
   commands:
-  - zip -r Wolfpack-Odin.zip wolfpackmaker/wolfpackmaker.py wolfpackmaker/wolfpackmaker.bat wolfpackmaker/requirements.txt .minecraft instance.cfg mmc-pack.json wolfpackodin.png
+  - zip -r Wolfpack-Odin.zip wolfpackmaker/wolfpackmaker.py wolfpackmaker/wolfpackmaker.bat wolfpackmaker/requirements.txt wolfpackmaker/multimc.bat .minecraft instance.cfg mmc-pack.json wolfpackodin.png
   - zip -r config.zip .minecraft mmc-pack.json
 - name: mod-list
   image: kalka/drone-entrypoint
