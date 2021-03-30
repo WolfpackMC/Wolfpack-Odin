@@ -7,9 +7,41 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## [1.1] - 2021-03-30
+
+This release requires a full modpack re-download. To re-download the modpack, import a new MultiMC instance and enter the following URL: `https://woofmc.xyz/Wolfpack-Odin`
+
+### Added
+- Backpacked
+- Backpacker
+- Bamboo Everything
+- Entity Culling
+- Extra Storage
+- Immersive Engineering
+- Login Shield
+- Refined Storage Addons
+- Thermal Innovation
+- Thermal Locomotion
+- Trash Cans
+- Travel Anchors
+- Dynamic Surroundings
+- Aquaculture
+- More Sound Config
+- Advanced Chimneys
+- Valhelsia Structures
+
+### Changed
+Main Server IP (from `odin.kalka.io` to `woofmc.xyz`)
+Dynamic Map in favor of BlueMap (view the new map [here](https://woofmc.xyz/map/8100/))
+
+### Removed
+- Titles
+- Ding
+- Sound Filters
+
 ## [1.0.3] - 2021-03-19
 ### Added
-- [Titles](https://kalka.io/modlist/odin#titles)
+- Titles
 
 ### Changed
 - Update Forge to `36.1.1`
@@ -48,3 +80,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [1.0.1]: https://git.kalka.io/Wolfpack/Odin/src/tag/1.0.1
 [1.0.2]: https://git.kalka.io/Wolfpack/Odin/compare/1.0.1...1.0.2
 [1.0.3]: https://git.kalka.io/Wolfpack/Odin/compare/1.0.2...1.0.3
+[1.1]: https://git.kalka.io/Wolfpack/Odin/compare/1.0.3...1.1
