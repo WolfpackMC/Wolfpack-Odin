@@ -15,8 +15,6 @@ mods:
 - better-advancements:
 - default-options:
     clientonly: true
-- enchantment-descriptions:
-    clientonly: true
 - jei-integration:
 - its-the-little-things:
     clientonly: true
