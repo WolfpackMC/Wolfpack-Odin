@@ -9,8 +9,6 @@ steps:
 - name: pre-lock
   image: python:3
   commands:
-  - apt update
-  - apt -y install zip neofetch
   - neofetch
   - python3 -VVV
   - curl -L 'https://get.kalka.io/curseforge.db' > curseforge.db
