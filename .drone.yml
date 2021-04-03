@@ -2,25 +2,30 @@ kind: pipeline
 type: docker
 name: packmaker
 
+workspace:
+  path: /drone/src
+
 steps:
 - name: pre-lock
-  image: kalka/drone-entrypoint
+  image: python:3
   commands:
+  - apt update
+  - apt install zip
   - neofetch
-  - python -VVV
+  - python3 -VVV
   - curl -L 'https://get.kalka.io/curseforge.db' > curseforge.db
   - git clone https://git.kalka.io/kalka/wolfpackmaker
 - name: lock
-  image: kalka/drone-entrypoint
+  image: python:3
   commands:
-  - packmaker -vvvv --config wolfpackmaker/packmaker.conf lock
+  - python3 wolfpackmaker/util/lock.py
 - name: package
-  image: kalka/drone-entrypoint
+  image: python:3
   commands:
   - zip -r Wolfpack-Odin.zip wolfpackmaker/wolfpackmaker.py wolfpackmaker/wolfpackmaker.bat wolfpackmaker/requirements.txt wolfpackmaker/multimc.bat .minecraft instance.cfg mmc-pack.json wolfpackodin.png
   - zip -r config.zip .minecraft mmc-pack.json
 - name: mod-list
-  image: kalka/drone-entrypoint
+  image: python:3
   commands:
   - python wolfpackmaker/raw_mod_list.py Odin
 - name: upload
