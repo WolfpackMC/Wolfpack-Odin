@@ -27,7 +27,7 @@ steps:
 - name: mod-list
   image: python:3
   commands:
-  - python wolfpackmaker/raw_mod_list.py Odin
+  - python3 wolfpackmaker/raw_mod_list.py Odin
 - name: upload
   image: plugins/gitea-release
   settings:
@@ -39,7 +39,7 @@ steps:
     files:
       - Wolfpack-Odin.zip
       - config.zip
-      - packmaker.lock
+      - manifest.lock
       - modlist.db
   when:
     event: tag
