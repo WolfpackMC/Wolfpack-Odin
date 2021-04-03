@@ -7,24 +7,22 @@ workspace:
 
 steps:
 - name: pre-lock
-  image: python:3
+  image: kalka/drone-entrypoint
   commands:
   - neofetch
   - python3 -VVV
   - curl -L 'https://get.kalka.io/curseforge.db' > curseforge.db
-  - git clone https://git.kalka.io/kalka/wolfpackmaker
-  - pip3 install -r wolfpackmaker/requirements.txt
 - name: lock
-  image: python:3
+  image: kalka/drone-entrypoint
   commands:
   - python3 wolfpackmaker/util/lock.py
 - name: package
-  image: python:3
+  image: kalka/drone-entrypoint
   commands:
   - zip -r Wolfpack-Odin.zip wolfpackmaker/wolfpackmaker.py wolfpackmaker/wolfpackmaker.bat wolfpackmaker/requirements.txt wolfpackmaker/multimc.bat .minecraft instance.cfg mmc-pack.json wolfpackodin.png
   - zip -r config.zip .minecraft mmc-pack.json
 - name: mod-list
-  image: python:3
+  image: kalka/drone-entrypoint
   commands:
   - python3 wolfpackmaker/raw_mod_list.py Odin
 - name: upload
