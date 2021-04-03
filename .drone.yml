@@ -15,6 +15,7 @@ steps:
   - python3 -VVV
   - curl -L 'https://get.kalka.io/curseforge.db' > curseforge.db
   - git clone https://git.kalka.io/kalka/wolfpackmaker
+  - pip3 install -r wolfpackmaker/requirements.txt
 - name: lock
   image: python:3
   commands:
