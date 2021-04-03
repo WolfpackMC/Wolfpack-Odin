@@ -23,8 +23,6 @@ mods:
 - overloaded-armor-bar:
 - antighost:
     clientonly: true
-- emojiful:
-    clientonly: true
 - let-sleeping-dogs-lie:
     clientonly: true
 - light-overlay:
@@ -177,6 +175,7 @@ mods:
 - eidolon:
 - productivebees:
 - mmmmmmmmmmmm:
+- chemlib:
 - alchemistry:
 - the-bumblezone-forge:
 - space-bosstools:
@@ -225,7 +224,6 @@ mods:
 - login-shield:
 - trash-cans:
 - geckolib:
-- chemlib:
 - backpacked:
 - backpacker:
 - immersive-engineering:
