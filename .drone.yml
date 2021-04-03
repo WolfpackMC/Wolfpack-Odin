@@ -9,6 +9,7 @@ steps:
 - name: pre-lock
   image: kalka/drone-entrypoint
   commands:
+  - git clone https://git.kalka.io/kalka/wolfpackmaker
   - neofetch
   - python3 -VVV
   - curl -L 'https://get.kalka.io/curseforge.db' > curseforge.db
