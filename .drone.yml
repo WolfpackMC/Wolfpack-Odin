@@ -10,7 +10,7 @@ steps:
   image: python:3
   commands:
   - apt update
-  - apt install zip
+  - apt install zip neofetch
   - neofetch
   - python3 -VVV
   - curl -L 'https://get.kalka.io/curseforge.db' > curseforge.db
