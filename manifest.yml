@@ -196,6 +196,7 @@ mods:
 - step:
 - supplementaries:
 - swingthroughgrass:
+- tinkers-construct:
 - tellme:
 - terraforged:
 - tetra:
