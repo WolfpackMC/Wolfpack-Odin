@@ -31,8 +31,6 @@ mods:
 - entityculling:
     clientonly: true
     url: 'https://get.kalka.io/mods/entityculling-1.1.0-unofficial.jar'
-- more-sound-config:
-    clientonly: true
 - a-lib:
 - abnormals-core:
 - abnormals-delight:
@@ -154,6 +152,7 @@ mods:
 - mgui:
 - mining-gadgets:
 - mmmmmmmmmmmm:
+- more-sound-config:
 - morph-o-tool:
 - morpheus:
 - mystical-world:
