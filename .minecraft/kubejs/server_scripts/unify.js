@@ -11,13 +11,15 @@ global["UNIFY_ORE_GEN"] = true
 
 // Mod priorities
 global["unifypriorities"] = [
+    "create",
     "thermal",
     "mekanism",
-    "create",
     "jaopca",
+    "tconstruct",
+    "chemlib",
+    "alchemistry",
     "silents_mechanisms",
-    "silentgems",
-    "chemlib"
+    "silentgems"
 ]
 
 // Add oredictionary tags here to unify (or use javascript to generate it!)
