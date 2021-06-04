@@ -27,10 +27,8 @@ mods:
     clientonly: true
 - no-potion-shift:
     clientonly: true
-    url: 'https://get.kalka.io/mods/nopotionshift_1.16.4-1.6.0-unofficial.jar'
-- entityculling:
+- entity-culling:
     clientonly: true
-    url: 'https://get.kalka.io/mods/entityculling-1.1.0-unofficial.jar'
 - a-lib:
 - abnormals-core:
 - abnormals-delight:
@@ -227,9 +225,7 @@ mods:
 - yungs-better-mineshafts-forge:
 - zerocore:
 - dynamic-surroundings:
-    url: 'https://github.com/OreCruncher/DynamicSurroundings2/releases/download/1.16.4-4.0.4.1/DynamicSurroundings-1.16.4-4.0.4.1.jar'
 - bamboo-everything-forge:
-    url: 'https://media.forgecdn.net/files/3071/140/bambooeverything-1.16.3-forge-1.0.0.jar'
 - spark:
     serveronly: true
     url: 'https://ci.lucko.me/job/spark/lastSuccessfulBuild/artifact/spark-forge/build/libs/spark-forge.jar'
