@@ -38,6 +38,7 @@ steps:
       - Wolfpack-Odin.zip
       - config.zip
       - manifest.lock
+      - manifest.json
       - modlist.db
   when:
     event: tag
