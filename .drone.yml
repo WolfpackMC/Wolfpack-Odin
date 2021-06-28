@@ -12,7 +12,6 @@ steps:
   - git clone https://git.kalka.io/kalka/wolfpackmaker
   - neofetch
   - python3 -VVV
-  - curl -L 'https://get.kalka.io/curseforge.db' > curseforge.db
 - name: lock
   image: kalka/drone-entrypoint
   commands:
@@ -27,13 +26,10 @@ steps:
   commands:
   - python3 wolfpackmaker/raw_mod_list.py Odin
 - name: upload
-  image: plugins/gitea-release
+  image: plugins/github-release
   settings:
     api_key:
-      from_secret: api_key
-    base_url: https://git.kalka.io
-    title: ${DRONE_TAG}
-    note: ${DRONE_COMMIT_MESSAGE}
+      from_secret: github_key
     files:
       - Wolfpack-Odin.zip
       - config.zip
