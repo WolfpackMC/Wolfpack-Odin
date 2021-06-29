@@ -230,6 +230,9 @@ mods:
     serveronly: true
     url: 'https://ci.lucko.me/job/spark/lastSuccessfulBuild/artifact/spark-forge/build/libs/spark-forge.jar'
 - worldedit:
-    serveronly: true
+    optional: true
+- OptiFine:
+    optional: true
+    url: 'https://get.kalka.io/Optifine?version=OptiFine_1.16.5_HD_U_G8.jar'
 - pregenforge:
     serveronly: true
