@@ -24,7 +24,7 @@ steps:
 - name: mod-list
   image: kalka/drone-entrypoint
   commands:
-  - python3 wolfpackmaker/raw_mod_list.py Odin
+  - python3 wolfpackmaker/util/raw_mod_list.py Odin
 - name: upload
   image: plugins/github-release
   settings:
