@@ -4,3 +4,4 @@ packmaker.lock
 curseforge.db
 modlist.db
 *.code-workspace
+.idea
