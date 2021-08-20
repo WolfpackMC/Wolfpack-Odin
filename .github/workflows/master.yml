@@ -13,6 +13,7 @@ jobs:
     container:
       image: archlinux
     steps:
+      - uses: actions/checkout@v2
       - run: pacman -Syyu --noconfirm python3 git zip
       - run: git clone https://github.com/kalkafox/wolfpackmaker.git
       - run: python3 -VVV
