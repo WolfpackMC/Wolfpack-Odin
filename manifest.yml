@@ -70,6 +70,7 @@ mods:
 - cc-tweaked:
 - charm-reforged:
 - chemlib:
+- chisel:
 - chocolate-fix:
 - citadel:
 - click-machine:
@@ -84,6 +85,7 @@ mods:
 - cooking-for-blockheads:
 - cosmetic-armor-reworked:
 - crafttweaker:
+- ctm:
 - create:
 - culinary-construct:
 - curio-of-undying:
@@ -96,7 +98,6 @@ mods:
 - decorative-blocks-modded-compat:
 - decorative-blocks:
 - druidcraft:
-- effortless-building:
 - eidolon:
 - emojiful:
 - enchantment-descriptions:
@@ -151,6 +152,7 @@ mods:
 - mgui:
 - mining-gadgets:
 - mmmmmmmmmmmm:
+- mob-grinding-utils:
 - more-sound-config:
 - morph-o-tool:
 - morpheus:
@@ -189,6 +191,7 @@ mods:
 - simple-farming:
 - simply-jetpacks-2:
 - simply-light:
+- sit:
 - snow-under-trees:
 - space-bosstools:
 - step:
@@ -217,7 +220,6 @@ mods:
 - valkyrielib:
 - waystones:
 - wither-skeleton-tweaks:
-- woot:
 - xaeros-minimap:
 - xaeros-world-map:
 - yungs-api:
