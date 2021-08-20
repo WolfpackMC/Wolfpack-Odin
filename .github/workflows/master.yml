@@ -20,11 +20,13 @@ jobs:
       - run: python3 -m ensurepip
       - run: python3 -m pip install -r wolfpackmaker/requirements.txt
       - run: python3 wolfpackmaker/util/lock.py
+      - run: zip -r Wolfpack-Odin.zip wolfpackmaker/wolfpackmaker.py wolfpackmaker/wolfpackmaker.bat wolfpackmaker/requirements.txt wolfpackmaker/multimc.bat .minecraft instance.cfg mmc-pack.json wolfpackodin.png
+      - run: zip -r config.zip .minecraft mmc-pack.json
       - uses: "marvinpinto/action-automatic-releases@latest"
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
-          automatic_release_tag: "latest"
-          prerelease: false
+          automatic_release_tag: "Wolfpack Odin Pre-Release"
+          prerelease: true
           files: |
             manifest.*
             *.zip
