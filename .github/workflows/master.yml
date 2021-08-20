@@ -13,12 +13,16 @@ jobs:
     container:
       image: archlinux
     steps:
-      - run: pacman -Syyu --noconfirm python3
+      - run: pacman -Syyu --noconfirm python3 git zip
+      - run: git clone https://github.com/kalkafox/wolfpackmaker.git
       - run: python3 -VVV
-  build-2:
-    runs-on: self-hosted
-    container:
-      image: archlinux
-    steps:
-      - run: echo test
-      - run: python -VVV
+      - run: python3 -m ensurepip
+      - run: python3 -m pip install -r wolfpackmaker/requirements.txt
+      - run: python3 wolfpackmaker/util/lock.py
+    uses: "marvinpinto/action-automatic-releases@latest"
+      with:
+        repo_token: "${{ secrets.GITHUB_TOKEN }}"
+        prerelease: false
+        files: |
+          manifest.*
+          *.zip
