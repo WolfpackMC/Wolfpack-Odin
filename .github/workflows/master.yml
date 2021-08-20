@@ -19,7 +19,6 @@ jobs:
       - run: python3 -m ensurepip
       - run: python3 -m pip install -r wolfpackmaker/requirements.txt
       - run: python3 wolfpackmaker/util/lock.py
-      - name: Publish
       - uses: "marvinpinto/action-automatic-releases@latest"
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
