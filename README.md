@@ -2,7 +2,7 @@
 ![wolfpack-odin](https://i.imgur.com/baYQHuu.png)
 
 # 🐺 Wolfpack Odin
-[![Build Status](https://ci.kalka.io/api/badges/Wolfpack/Odin/status.svg)](https://ci.kalka.io/Wolfpack/Odin)
+[![Build Status](https://github.com/kalkafox/Wolfpack-Odin/actions/workflows/master.yml/badge.svg)](https://github.com/kalkafox/Wolfpack-Odin/actions/workflows/master.yml)
 
 A modpack for Minecraft version 1.16.5 using [MultiMC](https://multimc.org/) as the frontend and [packmaker](https://gitlab.com/routhio/minecraft/tools/packmaker) as the backend for mod building.
 
