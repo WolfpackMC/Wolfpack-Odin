@@ -42,6 +42,7 @@ mods:
 - angel-ring:
 - apotheosis:
 - appleskin:
+- applied-energistics-2:
 - aquaculture:
 - architectury-forge:
 - ars-nouveau:
@@ -97,7 +98,9 @@ mods:
 - dash:
 - decorative-blocks-modded-compat:
 - decorative-blocks:
+- draconic-evolution:
 - druidcraft:
+- effortless-building:
 - eidolon:
 - emojiful:
 - enchantment-descriptions:
@@ -129,6 +132,7 @@ mods:
 - inventory-tweaks-renewed:
 - iron-chests:
 - jade:
+- jamd:
 - jaopca:
 - jei:
 - jeitweaker:
@@ -173,6 +177,7 @@ mods:
 - productivebees:
 - quark:
 - ranged-pumps:
+- randompatches-forge:
 - redstone-gauges-and-switches:
 - refined-storage-addons:
 - refined-storage-addons:
