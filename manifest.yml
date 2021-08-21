@@ -15,6 +15,7 @@ mods:
     clientonly: true
 - jei-integration:
 - its-the-little-things:
+    url: https://media.forgecdn.net/files/3433/503/itlt-1.16.x-2.0.1.jar
     clientonly: true
 - craftpresence:
     clientonly: true
