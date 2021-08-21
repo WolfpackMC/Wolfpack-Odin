@@ -82,6 +82,7 @@ mods:
 - coloured-tooltips:
 - compact-machines:
 - construction-wand:
+    url: https://media.forgecdn.net/files/3285/196/constructionwand-1.16.5-2.2.jar
 - controlling:
 - cooking-for-blockheads:
 - cosmetic-armor-reworked:
