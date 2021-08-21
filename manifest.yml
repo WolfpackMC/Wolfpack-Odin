@@ -44,7 +44,6 @@ mods:
 - applied-energistics-2:
 - aquaculture:
 - architectury-forge:
-- ars-nouveau:
 - astral-sorcery:
 - atmospheric:
 - attributefix:
@@ -75,7 +74,6 @@ mods:
 - chisel:
 - chocolate-fix:
 - citadel:
-- click-machine:
 - cloth-config-forge:
 - clumps:
 - codechicken-lib-1-8:
@@ -196,14 +194,12 @@ mods:
 - snow-under-trees:
 - space-bosstools:
 - step:
-- supplementaries:
 - swingthroughgrass:
 - tinkers-construct:
 - tellme:
 - terraforged:
 - tetra:
 - the-bumblezone-forge:
-- the-mighty-architect:
 - thermal-expansion:
 - thermal-foundation:
 - thermal-innovation:
@@ -227,15 +223,8 @@ mods:
 - yungs-better-caves:
 - yungs-better-mineshafts-forge:
 - zerocore:
-- dynamic-surroundings:
 - bamboo-everything-forge:
-- spark:
-    serveronly: true
-    url: 'https://ci.lucko.me/job/spark/lastSuccessfulBuild/artifact/spark-forge/build/libs/spark-forge.jar'
 - worldedit:
     optional: true
-- OptiFine:
-    optional: true
-    url: 'https://get.kalka.io/Optifine?version=OptiFine_1.16.5_HD_U_G8.jar'
 - pregenforge:
     serveronly: true
