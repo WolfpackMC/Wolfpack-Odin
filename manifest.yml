@@ -225,7 +225,6 @@ mods:
 - yungs-better-caves:
 - yungs-better-mineshafts-forge:
 - zerocore:
-- bamboo-everything-forge:
 - worldedit:
     optional: true
 - pregenforge:
