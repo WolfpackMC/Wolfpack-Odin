@@ -11,14 +11,10 @@ jobs:
     runs-on: self-hosted
 
     container:
-      image: archlinux
+      image: kalka/wolfpackmaker:latest
     steps:
       - uses: actions/checkout@v2
-      - run: pacman -Syyu --noconfirm python3 git zip
       - run: git clone https://github.com/kalkafox/wolfpackmaker.git
-      - run: python3 -VVV
-      - run: python3 -m ensurepip
-      - run: python3 -m pip install -r wolfpackmaker/requirements.txt
       - run: python3 wolfpackmaker/util/lock.py
       - run: zip -r Wolfpack-Odin.zip wolfpackmaker/wolfpackmaker.py wolfpackmaker/wolfpackmaker.bat wolfpackmaker/requirements.txt wolfpackmaker/multimc.bat .minecraft instance.cfg mmc-pack.json wolfpackodin.png
       - run: zip -r config.zip .minecraft mmc-pack.json

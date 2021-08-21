@@ -38,11 +38,11 @@ mods:
 - ai-improvements:
 - akashic-tome:
 - alchemistry:
-- alexs-mobs:
 - angel-ring:
 - apotheosis:
 - appleskin:
 - applied-energistics-2:
+- applied-energistics-2-wireless-terminals-forge:
 - aquaculture:
 - architectury-forge:
 - ars-nouveau:
@@ -58,9 +58,11 @@ mods:
 - berry-good:
 - better-badlands:
 - better-burning:
+- biggerreactors:
 - biomes-o-plenty:
 - blockcarpentry:
 - blood-magic:
+- brandons-core:
 - bookshelf:
 - botania:
 - bountiful:
@@ -110,7 +112,6 @@ mods:
 - extra-boats:
 - extra-disks:
 - extrastorage:
-- extreme-reactors:
 - farmers-delight:
 - fast-leaf-decay:
 - fastfurnace:
@@ -177,11 +178,8 @@ mods:
 - productivebees:
 - quark:
 - ranged-pumps:
-- randompatches-forge:
-- redstone-gauges-and-switches:
-- refined-storage-addons:
-- refined-storage-addons:
 - refined-storage:
+- refined-storage-addons:
 - rftools-base:
 - rftools-builder:
 - rftools-power:
