@@ -1,3 +1,0 @@
-["General performance improvements settings"]
-	#Reduces crafting lag by caching recipe lookups, helps a lot with autocrafting/crafting related lag. default = true
-	cacheRecipes = false
