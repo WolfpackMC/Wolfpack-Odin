@@ -1,9 +1,9 @@
 
-name: modpack-build-latest
+name: modpack-build-optifine
 
 on:
   push:
-    branches: [ master ]
+    branches: [ optifine ]
 
   workflow_dispatch:
 jobs:
@@ -21,7 +21,7 @@ jobs:
       - uses: "marvinpinto/action-automatic-releases@latest"
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
-          automatic_release_tag: "latest"
+          automatic_release_tag: "latest-optifine"
           prerelease: true
           files: |
             manifest.*
