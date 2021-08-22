@@ -45,7 +45,7 @@
 			# Mainly useful to disable for speedruns that start the timer when the main menu is shown.
 			# 
 			# Note: enableExplicitGC must be true for this to have any effect.
-			explicitGCOnMenu = true
+			explicitGCOnMenu = false
 
 	[Java.Arch]
 
