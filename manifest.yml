@@ -28,8 +28,6 @@ mods:
     clientonly: true
 - no-potion-shift:
     clientonly: true
-- entity-culling:
-    clientonly: true
 - a-lib:
 - abnormals-core:
 - abnormals-delight:
