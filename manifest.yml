@@ -45,6 +45,7 @@ mods:
 - applied-energistics-2:
 - aquaculture:
 - architectury-forge:
+- ars-nouveau:
 - astral-sorcery:
 - atmospheric:
 - attributefix:
@@ -107,6 +108,7 @@ mods:
 - enchantment-descriptions:
 - ender-storage-1-8:
 - endergetic:
+- entangled:
 - extended-lights-mod:
 - extra-boats:
 - extra-disks:
@@ -162,6 +164,7 @@ mods:
 - mystical-world:
 - natures-compass:
 - netherportalfix:
+- nomowanderer:
 - obfuscate:
 - observerlib:
 - oh-the-biomes-youll-go:
