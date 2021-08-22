@@ -195,7 +195,6 @@ mods:
 - snow-under-trees:
 - space-bosstools:
 - step:
-- swingthroughgrass:
 - tinkers-construct:
 - tellme:
 - terraforged:
@@ -224,6 +223,22 @@ mods:
 - yungs-better-caves:
 - yungs-better-mineshafts-forge:
 - zerocore:
+- botany-pots:
+- botany-trees:
+- cable-tiers:
+- cleancut:
+- crash-utilities:
+- creative-wireless-transmitter:
+- dynamic-view:
+    serveronly: true
+- extreme-sound-muffler:
+- fastfurnace-minus-replacement:
+- rsinfinitybooster:
+- smooth-boot-forge:
+- sophisticated-backpacks:
+- tinkers-mechworks:
+- flickerfix:
+    clientonly: true
 - worldedit:
     optional: true
 - pregenforge:
