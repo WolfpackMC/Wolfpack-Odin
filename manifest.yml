@@ -7,6 +7,7 @@ mods:
 - reauth:
     clientonly: true
 - just-enough-resources-jer:
+    clientonly: true
 - toast-control:
     clientonly: true
 - randompatches-forge:
@@ -200,6 +201,7 @@ mods:
 - terraforged:
 - tetra:
 - the-bumblezone-forge:
+- the-mighty-architect:
 - thermal-expansion:
 - thermal-foundation:
 - thermal-innovation:
