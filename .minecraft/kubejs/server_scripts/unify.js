@@ -6,8 +6,8 @@ global["ITEM_UNIFY"] = true
 global["RECIPE_UNIFY"] = true
 // Whether or not to hide not-first materials in jei (requires secondary script)
 global["HIDE_UNIFIED_ITEMS"] = true
-// Whether or not to disable non-priority ore-gen
-global["UNIFY_ORE_GEN"] = true
+// Whether or not to disable non-priority ore-gen (THIS DOES NOT WORK AS OF CURRENTLY)
+// global["UNIFY_ORE_GEN"] = true
 
 // Mod priorities
 global["unifypriorities"] = [
@@ -21,13 +21,18 @@ global["unifypriorities"] = [
     "silents_mechanisms",
     "silentgems"
 ]
+// Items to exclude (will not be unified)
+global["unifyexclude"] = new Set([
+    // "minecraft:stone"
+])
 
-// Add oredictionary tags here to unify (or use javascript to generate it!)
+// Add oredictionary tags here to unify (or use javascript to generate it!). These are also higher priority than tagGen
 var tags = [
     "forge:plates/iron",
-    "forge:gears/iron"
+    "forge:gears/iron",
+    "forge:silicon"
 ]
-// Block tags for ore gen unification (an equal item tag is required for this to work, which is the case with ores normally)
+// Block tags for ore gen unification (DOES NOT WORK CURRENTLY)
 /*var btags = [
     "forge:ores/copper",
     "forge:ores/tin",
@@ -40,9 +45,9 @@ var tags = [
     "forge:ores/iridium",
     "forge:ores/zinc",
     "forge:ores/osmium",
-    "forge:ores/sulfur",
+    "forge:ores/sulfur"
 ]*/
-// Easier way to add multiple tags (feel free to add empty extra tags, this will ignore them)
+// Easier way to add multiple tags (feel free to add non-existant extra tags, this will ignore them)
 var tagGen = [
     "gold=gears,plates",
     "diamond=gears,plates",
@@ -59,7 +64,8 @@ var tagGen = [
     "iridium=storage_blocks,ingots,nuggets,dusts,ores",
     "zinc=storage_blocks,ingots,nuggets,dusts,ores",
     "osmium=ingots,ores",
-    "sulfur=dusts,ores"
+    "sulfur=dusts,ores",
+    "silicon=gems"
 ]
 for (let line of tagGen) {
     let data = line.split("=")
@@ -156,7 +162,14 @@ onEvent("entity.spawned", event => {
         var entity = event.getEntity()
         if (entity.getType() == "minecraft:item") {
             var gItem = entity.getItem()
-            var itemId = gItem.getId()
+            try {
+                var itemId = gItem.getId()
+            } catch(e) {
+                if (e instanceof TypeError) {
+                    console.log("An error has occurred. ${e}")
+                    return
+                }
+            }
             // Check if item is excluded
             if (global["unifyexclude"].has(itemId)) return
 

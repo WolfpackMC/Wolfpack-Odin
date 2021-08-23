@@ -231,6 +231,7 @@ mods:
 - cleancut:
 - crash-utilities:
 - creative-wireless-transmitter:
+- simply-backpacks:
 - dynamic-view:
     serveronly: true
 - extreme-sound-muffler:
