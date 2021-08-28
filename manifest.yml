@@ -16,7 +16,6 @@ mods:
     clientonly: true
 - jei-integration:
 - its-the-little-things:
-    url: https://media.forgecdn.net/files/3433/503/itlt-1.16.x-2.0.1.jar
     clientonly: true
 - craftpresence:
     clientonly: true
@@ -74,6 +73,7 @@ mods:
 - chemlib:
 - chisel:
 - chocolate-fix:
+- chunk-loaders:
 - citadel:
 - cloth-config-forge:
 - clumps:
@@ -82,7 +82,6 @@ mods:
 - coloured-tooltips:
 - compact-machines:
 - construction-wand:
-    url: https://media.forgecdn.net/files/3285/196/constructionwand-1.16.5-2.2.jar
 - controlling:
 - cooking-for-blockheads:
 - cosmetic-armor-reworked:
