@@ -131,6 +131,7 @@ mods:
 - inventory-tweaks-renewed:
 - iron-chests:
 - jade:
+    url: https://github.com/kalkafox/Jade/releases/download/1.16-progressfade-ci/Jade-unofficial-1.16.4-2.7.4.jar
 - jamd:
 - jaopca:
 - jei:
