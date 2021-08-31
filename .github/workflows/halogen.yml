@@ -1,5 +1,5 @@
 
-name: modpack-build-latest
+name: modpack-build-halogen
 
 on:
   push:
