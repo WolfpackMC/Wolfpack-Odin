@@ -256,3 +256,5 @@ mods:
     optional: true
 - pregenforge:
     serveronly: true
+# Halogen
+- halogen:
