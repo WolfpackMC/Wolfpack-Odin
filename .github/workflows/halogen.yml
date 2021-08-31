@@ -1,0 +1,28 @@
+
+name: modpack-build-latest
+
+on:
+  push:
+    branches: [ halogen ]
+
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: self-hosted
+
+    container:
+      image: kalka/wolfpackmaker:latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: git clone https://github.com/kalkafox/wolfpackmaker.git
+      - run: python3 wolfpackmaker/util/lock.py
+      - run: zip -r Wolfpack-Odin-Halogen.zip wolfpackmaker/wolfpackmaker.py wolfpackmaker/wolfpackmaker.bat wolfpackmaker/requirements.txt wolfpackmaker/multimc.bat .minecraft instance.cfg mmc-pack.json wolfpackodin.png
+      - run: zip -r config.zip .minecraft mmc-pack.json
+      - uses: "marvinpinto/action-automatic-releases@latest"
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          automatic_release_tag: "latest"
+          prerelease: true
+          files: |
+            manifest.*
+            *.zip
