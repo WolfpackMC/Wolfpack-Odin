@@ -36,6 +36,7 @@ mods:
 - advanced-chimneys:
 - ai-improvements:
 - akashic-tome:
+- alexs-mobs:
 - alchemistry:
 - angel-ring:
 - apotheosis:
@@ -197,7 +198,6 @@ mods:
     url: https://github.com/MrTJP/ProjectRed/releases/download/v4.10/ProjectRed-1.16.5-4.10.0-integration.jar
 - project-red-expansion:
     url: https://github.com/MrTJP/ProjectRed/releases/download/v4.10/ProjectRed-1.16.5-4.10.0-expansion.jar
-- preciseblockplacing:
 - quark:
 - ranged-pumps:
 - refined-storage:
