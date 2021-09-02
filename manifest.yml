@@ -36,6 +36,7 @@ mods:
 - advanced-chimneys:
 - ai-improvements:
 - akashic-tome:
+- alexs-mobs:
 - alchemistry:
 - angel-ring:
 - apotheosis:
@@ -185,7 +186,18 @@ mods:
 - polymorph:
 - powah:
 - productivebees:
-- preciseblockplacing:
+- project-red-core:
+    url: https://github.com/MrTJP/ProjectRed/releases/download/v4.10/ProjectRed-1.16.5-4.10.0-core.jar
+- project-red-illumination:
+    url: https://github.com/MrTJP/ProjectRed/releases/download/v4.10/ProjectRed-1.16.5-4.10.0-illumination.jar
+- project-red-transmission:
+    url: https://github.com/MrTJP/ProjectRed/releases/download/v4.10/ProjectRed-1.16.5-4.10.0-transmission.jar
+- project-red-exploration:
+    url: https://github.com/MrTJP/ProjectRed/releases/download/v4.10/ProjectRed-1.16.5-4.10.0-exploration.jar
+- project-red-integration:
+    url: https://github.com/MrTJP/ProjectRed/releases/download/v4.10/ProjectRed-1.16.5-4.10.0-integration.jar
+- project-red-expansion:
+    url: https://github.com/MrTJP/ProjectRed/releases/download/v4.10/ProjectRed-1.16.5-4.10.0-expansion.jar
 - quark:
 - ranged-pumps:
 - refined-storage:
