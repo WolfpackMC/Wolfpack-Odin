@@ -22,7 +22,7 @@
 			# Turn this on to help prevent and/or reduce GC-related lag spikes, turn it off for
 			# Vanilla behaviour (only rely on the pressure-based automatic GC). This is off by
 			# default as it may actually hurt performance if Xms and Xmx aren't the same!
-			enableExplicitGC = true
+			enableExplicitGC = false
 			# 
 			# Whether or not to run explicit GC when the player pauses the game.
 			# 
@@ -30,12 +30,12 @@
 			# of time (i.e. less than ~2s).
 			# 
 			# Note: enableExplicitGC must be true for this to have any effect.
-			explicitGCOnPause = true
+			explicitGCOnPause = false
 			# 
 			# Whether or not to run explicit GC when the player is sleeping in a bed.
 			# 
 			# Note: enableExplicitGC must be true for this to have any effect.
-			explicitGCOnSleep = true
+			explicitGCOnSleep = false
 			# 
 			# Whether or not to run explicit GC when navigating one of the following opaque
 			# background screens: Singleplayer world selection, Multiplayer server selection,
