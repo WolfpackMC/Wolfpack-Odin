@@ -267,12 +267,12 @@ mods:
 - rsinfinitybooster:
 - smooth-boot-forge:
 - tinkers-mechworks:
+- betterend-forge-port:
+- the-outer-end:
+- tetranomicon:
 - flickerfix:
     clientonly: true
 - worldedit:
     optional: true
 - pregenforge:
     serveronly: true
-- betterend-forge-port:
-- the-outer-end:
-- tetranomicon:
