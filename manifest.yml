@@ -267,6 +267,9 @@ mods:
 - rsinfinitybooster:
 - smooth-boot-forge:
 - tinkers-mechworks:
+- betterend-forge-port:
+- the-outer-end:
+- tetranomicon:
 - flickerfix:
     clientonly: true
 - worldedit:
@@ -280,6 +283,3 @@ mods:
 - OptiFine:
     optional: true
     url: 'https://get.kalka.io/Optifine?version=OptiFine_1.16.5_HD_U_G8.jar'
-- betterend-forge-port:
-- the-outer-end:
-- tetranomicon:
