@@ -62,7 +62,6 @@ mods:
 - blockcarpentry:
 - blood-magic:
 - brandons-core:
-    url: https://nexus.covers1624.net/repository/maven-hosted/com/brandon3055/brandonscore/BrandonsCore/1.16.5-3.0.9.235/BrandonsCore-1.16.5-3.0.9.235-universal.jar
 - bookshelf:
 - botania:
 - bountiful:
@@ -81,7 +80,6 @@ mods:
 - cloth-config-forge:
 - clumps:
 - codechicken-lib-1-8:
-    url: https://nexus.covers1624.net/repository/maven-hosted/codechicken/CodeChickenLib/1.16.5-4.0.3.434/CodeChickenLib-1.16.5-4.0.3.434-universal.jar
 - cofh-core:
 - coloured-tooltips:
 - compact-machines:
@@ -104,7 +102,6 @@ mods:
 - decorative-blocks-modded-compat:
 - decorative-blocks:
 - draconic-evolution:
-    url: https://nexus.covers1624.net/repository/maven-hosted/com/brandon3055/draconicevolution/Draconic-Evolution/1.16.5-3.0.13.410/Draconic-Evolution-1.16.5-3.0.13.410-universal.jar
 - druidcraft:
 - effortless-building:
 - eidolon:
