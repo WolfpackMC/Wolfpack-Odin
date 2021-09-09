@@ -267,6 +267,9 @@ mods:
 - rsinfinitybooster:
 - smooth-boot-forge:
 - tinkers-mechworks:
+- betterend-forge-port:
+- the-outer-end:
+- tetranomicon:
 - flickerfix:
     clientonly: true
 - worldedit:
