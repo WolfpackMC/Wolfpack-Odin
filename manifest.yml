@@ -110,6 +110,7 @@ mods:
 - endergetic:
 - entangled:
 - extended-lights-mod:
+    id: 335051
 - extra-boats:
 - extra-disks:
 - extrastorage:
@@ -120,11 +121,11 @@ mods:
 - ferritecore:
 - forbidden-arcanus:
 - forgiving-void:
-- ftb-backups:
-- ftb-essentials:
-- ftb-gui-library:
-- ftb-teams:
-- ftb-ultimine:
+- ftb-backups-forge:
+- ftb-essentials-forge:
+- ftb-library-forge:
+- ftb-teams-forge:
+- ftb-ultimine-forge:
 - geckolib:
 - gravestone-mod:
 - hats:
@@ -145,7 +146,7 @@ mods:
 - kubejs-create:
 - kubejs-immersive-engineering:
 - kubejs-mekanism:
-- kubejs:
+- kubejs-forge:
 - leap:
 - login-shield:
 - lollipop:
@@ -274,6 +275,7 @@ mods:
 - worldedit:
     optional: true
 - pregenforge:
+    id: 335051
     serveronly: true
 # Halogen
 - halogen:
