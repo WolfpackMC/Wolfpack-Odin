@@ -188,15 +188,15 @@ mods:
 - powah:
 - productivebees:
 - project-red-core:
-    url: https://github.com/MrTJP/ProjectRed/releases/download/v4.10/ProjectRed-1.16.5-4.10.0-core.jar
+    url: https://media.forgecdn.net/files/3459/382/ProjectRed-1.16.5-4.11.0-beta-0-core.jar
 - project-red-illumination:
-    url: https://github.com/MrTJP/ProjectRed/releases/download/v4.10/ProjectRed-1.16.5-4.10.0-illumination.jar
+    url: https://media.forgecdn.net/files/3459/384/ProjectRed-1.16.5-4.11.0-beta-0-illumination.jar
 - project-red-transmission:
-    url: https://github.com/MrTJP/ProjectRed/releases/download/v4.10/ProjectRed-1.16.5-4.10.0-transmission.jar
+    url: https://media.forgecdn.net/files/3459/386/ProjectRed-1.16.5-4.11.0-beta-0-transmission.jar
 - project-red-exploration:
-    url: https://github.com/MrTJP/ProjectRed/releases/download/v4.10/ProjectRed-1.16.5-4.10.0-exploration.jar
+    url: https://media.forgecdn.net/files/3459/385/ProjectRed-1.16.5-4.11.0-beta-0-exploration.jar
 - project-red-integration:
-    url: https://github.com/MrTJP/ProjectRed/releases/download/v4.10/ProjectRed-1.16.5-4.10.0-integration.jar
+    url: https://media.forgecdn.net/files/3459/383/ProjectRed-1.16.5-4.11.0-beta-0-integration.jar
 - project-red-expansion:
     url: https://github.com/MrTJP/ProjectRed/releases/download/v4.10/ProjectRed-1.16.5-4.10.0-expansion.jar
 - quark:
