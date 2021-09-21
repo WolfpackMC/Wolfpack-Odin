@@ -293,7 +293,7 @@
 				enableMaxMemoryRequirement = true
 				# 
 				#The maximum amount of allocated RAM in GB to be able to launch the modpack.
-				reqMaxMemoryAmountInGB = 8.0
+				reqMaxMemoryAmountInGB = 16.0
 
 			[Java.Memory.Max.Warning]
 				# 
