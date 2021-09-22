@@ -46,6 +46,7 @@ mods:
 - architectury-forge:
 - ars-nouveau:
 - astral-sorcery:
+    url: https://github.com/kalkafox/AstralSorcery/releases/download/1.16-ci/astralsorcery-1.16-1.16.5-1.13.12.jar
 - atmospheric:
 - attributefix:
 - autoreglib:
@@ -135,7 +136,7 @@ mods:
 - inventory-tweaks-renewed:
 - iron-chests:
 - jade:
-    url: https://github.com/kalkafox/Jade/releases/download/1.16-progressfade-ci/Jade-unofficial-1.16.4-2.7.5.jar
+    url: https://github.com/kalkafox/Jade/releases/download/1.16-ci/Jade-1.16.4-2.8.0.jar
 - jamd:
 - jaopca:
 - jei:
@@ -163,9 +164,13 @@ mods:
 - mantle:
 - mcjtylib:
 - mekanism-additions:
+    url: https://github.com/kalkafox/Mekanism/releases/download/v10.1/MekanismAdditions-1.16.5-10.0.21.homebaked.jar
 - mekanism-generators:
+    url: https://github.com/kalkafox/Mekanism/releases/download/v10.1/MekanismGenerators-1.16.5-10.0.21.homebaked.jar
 - mekanism-tools:
+    url: https://github.com/kalkafox/Mekanism/releases/download/v10.1/MekanismTools-1.16.5-10.0.21.homebaked.jar
 - mekanism:
+    url: https://github.com/kalkafox/Mekanism/releases/download/v10.1/Mekanism-1.16.5-10.0.21.homebaked.jar
 - mgui:
 - mining-gadgets:
 - mmmmmmmmmmmm:
