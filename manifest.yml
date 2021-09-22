@@ -283,7 +283,7 @@ mods:
 - pregenforge:
     id: 335051
     serveronly: true
-# OptiFine.
+# OptiFine...
 - entity-culling:
     clientonly: true
 - optiforge:
