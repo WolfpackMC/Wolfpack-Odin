@@ -58,6 +58,7 @@ mods:
 - berry-good:
 - better-badlands:
 - better-burning:
+- better-mobgriefing-gamerule:
 - biggerreactors:
 - biomes-o-plenty:
 - blockcarpentry:
@@ -120,6 +121,7 @@ mods:
 - fastfurnace:
 - fastworkbench-minus-replacement:
 - ferritecore:
+- flux-networks:
 - forbidden-arcanus:
 - forgiving-void:
 - ftb-backups-forge:
@@ -149,7 +151,6 @@ mods:
 - kubejs-mekanism:
 - kubejs-forge:
 - leap:
-- lollipop:
 - lumberjack:
 - macaws-paintings:
 - macaws-doors:
@@ -190,7 +191,6 @@ mods:
 - personality:
 - placebo:
 - polymorph:
-- powah:
 - productivebees:
 - project-red-core:
     url: https://media.forgecdn.net/files/3459/382/ProjectRed-1.16.5-4.11.0-beta-0-core.jar
