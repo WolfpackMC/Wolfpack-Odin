@@ -1,7 +1,6 @@
 modloader: Forge
 version: 1.16.5
 mods:
-- jei:
 - mouse-tweaks:
     clientonly: true
 - reauth:
@@ -186,7 +185,6 @@ mods:
 - observerlib:
 - oh-the-biomes-youll-go:
 - openblocks-elevator:
-- overloaded-armor-bar:
 - patchouli:
 - personality:
 - placebo:
