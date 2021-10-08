@@ -133,6 +133,7 @@ mods:
 - hats:
 - immersive-engineering:
 - immersive-petroleum:
+    url: https://get.kalka.io/jars/ImmersivePetroleum-1.16.5-3.3.0-7-unofficial.jar
 - industrial-foregoing:
 - inventory-tweaks-renewed:
 - iron-chests:
