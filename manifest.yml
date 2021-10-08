@@ -140,6 +140,7 @@ mods:
     url: https://github.com/kalkafox/Jade/releases/download/1.16-ci/Jade-1.16.4-2.8.0.jar
 - jamd:
 - jaopca:
+    url: https://get.kalka.io/jars/JAOPCA-1.16.5-3.4.1.14.jar
 - jei:
 - jeitweaker:
 - just-enough-calculation:
