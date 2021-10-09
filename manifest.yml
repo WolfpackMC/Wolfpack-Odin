@@ -288,6 +288,10 @@ mods:
     serveronly: true
 # OptiFine...
 - optiforge:
+    clientonly: true
+- entity-culling:
+    clientonly: true
 - OptiFine:
+    clientonly: true
     optional: true
     url: 'https://get.kalka.io/Optifine?version=OptiFine_1.16.5_HD_U_G8.jar'
