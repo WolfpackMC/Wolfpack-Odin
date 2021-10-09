@@ -255,6 +255,8 @@ mods:
 - wither-skeleton-tweaks:
 - xaeros-minimap:
 - xaeros-world-map:
+- xnet:
+- xnet-gases:
 - yungs-api:
 - yungs-better-caves:
 - yungs-better-mineshafts-forge:
