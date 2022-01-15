@@ -28,7 +28,6 @@ mods:
 - no-potion-shift:
     clientonly: true
 - a-lib:
-- abnormals-core:
 - abnormals-delight:
 - absent-by-design:
 - abundance:
@@ -58,10 +57,12 @@ mods:
 - better-badlands:
 - better-burning:
 - better-mobgriefing-gamerule:
+- beyond-earth:
 - biggerreactors:
 - biomes-o-plenty:
 - blockcarpentry:
 - blood-magic:
+- blueprint:
 - brandons-core:
 - bookshelf:
 - botania:
@@ -172,13 +173,13 @@ mods:
     url: https://github.com/kalkafox/Mekanism/releases/download/v10.1/MekanismTools-1.16.5-10.0.21.homebaked.jar
 - mekanism:
     url: https://github.com/kalkafox/Mekanism/releases/download/v10.1/Mekanism-1.16.5-10.0.21.homebaked.jar
-- mgui:
 - mining-gadgets:
 - mmmmmmmmmmmm:
 - mob-grinding-utils:
 - more-sound-config:
 - morph-o-tool:
 - morpheus:
+- mutil:
 - mystical-world:
 - natures-compass:
 - nethers-delight:
@@ -227,7 +228,6 @@ mods:
 - simply-tea:
 - sit:
 - snow-under-trees:
-- space-bosstools:
 - step:
 - storage-for-computercraft:
 - tinkers-construct:
