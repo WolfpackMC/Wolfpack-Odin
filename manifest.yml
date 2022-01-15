@@ -49,8 +49,6 @@ mods:
 - attributefix:
 - autoreglib:
 - autumnity:
-- backpacked:
-- backpacker:
 - bad-wither-no-cookie-reloaded:
 - bed-benefits:
 - berry-good:
@@ -111,6 +109,7 @@ mods:
 - ender-storage-1-8:
 - endergetic:
 - entangled:
+- ensorcellation:
 - extended-lights-mod:
     id: 335051
 - extra-boats:
@@ -118,7 +117,6 @@ mods:
 - extrastorage:
 - farmers-delight:
 - fast-leaf-decay:
-- fastfurnace:
 - fastworkbench-minus-replacement:
 - ferritecore:
 - flux-networks:
@@ -145,6 +143,7 @@ mods:
 - jei:
 - jeitweaker:
 - just-enough-calculation:
+- kobolds:
 - kotlin-for-forge:
 - kubejs-blood-magic:
 - kubejs-create:
@@ -189,9 +188,11 @@ mods:
 - polymorph:
 - productivebees:
 - quark:
+- quark-oddities:
 - ranged-pumps:
 - refined-storage:
 - refined-storage-addons:
+- roots-classic:
 - rftools-base:
 - rftools-builder:
 - rftools-power:
@@ -261,7 +262,9 @@ mods:
 - smooth-boot-forge:
 - tinkers-mechworks:
 - betterend-forge-port:
+- tome-of-blood:
 - the-outer-end:
+- the-abyss-chapter-ii:
 - tetranomicon:
 - flickerfix:
     clientonly: true
