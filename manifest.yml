@@ -123,6 +123,7 @@ mods:
 - ferritecore:
 - flux-networks:
 - forbidden-arcanus:
+- forgeendertech:
 - forgiving-void:
 - ftb-backups-forge:
 - ftb-essentials-forge:
@@ -212,6 +213,7 @@ mods:
 - snow-under-trees:
 - step:
 - storage-for-computercraft:
+- supermartijn642s-config-lib:
 - tinkers-construct:
 - tellme:
 - terraforged:
