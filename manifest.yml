@@ -274,8 +274,6 @@ mods:
     id: 335051
     serveronly: true
 # OptiFine...
-- optiforge:
-    clientonly: true
 - entity-culling:
     clientonly: true
 - OptiFine:
