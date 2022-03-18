@@ -109,6 +109,8 @@ mods:
 - ender-storage-1-8:
 - endergetic:
 - entangled:
+- entityculling:
+    clientonly: true
 - ensorcellation:
 - extended-lights-mod:
     id: 335051
