@@ -16,7 +16,7 @@ jobs:
       - uses: actions/checkout@v2
       - run: git clone https://github.com/kalkafox/wolfpackmaker.git src
       - run: python3 src/src/wolfpackmaker/lock.py
-      - run: zip -r Wolfpack-Odin.zip src/src/launch.py src/src/wolfpackmaker/wolfpackmaker.py src/src/wolfpackmaker/util.py src/src/wolfpackmaker/wolfpackmaker.bat src/src/wolfpackmaker/requirements-client.txt src/src/wolfpackmaker/multimc.bat .minecraft instance.cfg mmc-pack.json wolfpackodin.png
+      - run: zip -r Wolfpack-Odin.zip src/src/launch.py src/src/wolfpackmaker/wolfpackmaker.py src/src/wolfpackmaker/util.py wolfpackmaker.bat requirements-client.txt multimc.bat .minecraft instance.cfg mmc-pack.json wolfpackodin.png
       - run: zip -r config.zip .minecraft mmc-pack.json
       - uses: "marvinpinto/action-automatic-releases@latest"
         with:
