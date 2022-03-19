@@ -48,6 +48,7 @@ mods:
 - astral-sorcery:
     url: https://github.com/kalkafox/AstralSorcery/releases/download/1.16-ci/astralsorcery-1.16-1.16.5-1.13.12.jar
 - atmospheric:
+- ato:
 - attributefix:
 - autoreglib:
 - autumnity:
@@ -64,6 +65,8 @@ mods:
 - biggerreactors:
 - biomes-o-plenty:
 - blood-magic:
+- bluemap:
+    serveronly: true
 - blueprint:
 - brandons-core:
 - bookshelf:
@@ -94,10 +97,13 @@ mods:
 - construction-wand:
 - controlling:
 - cooking-for-blockheads:
+- cooperative-advancements:
+    serveronly: true
 - cosmetic-armor-reworked:
 - crafttweaker:
 - ctm:
 - create:
+- createaddition:
 - culinary-construct:
 - curio-of-undying:
 - curios:
@@ -108,8 +114,10 @@ mods:
 - dash:
 - decorative-blocks-modded-compat:
 - decorative-blocks:
+- discordintegration:
 - draconic-evolution:
 - druidcraft:
+- easy-magic:
 - effortless-building:
 - eidolon:
 - enchantment-descriptions:
@@ -120,6 +128,8 @@ mods:
 - entityculling:
     clientonly: true
 - ensorcellation:
+- equipment-compare:
+    clientonly: true
 - extended-lights-mod:
     id: 335051
 - extra-boats:
@@ -128,6 +138,8 @@ mods:
 - falling-leaves-forge:
     clientonly: true
 - farmers-delight:
+- farsight:
+    clientonly: true
 - fast-leaf-decay:
 - fastworkbench-minus-replacement:
 - fastsuite:
@@ -151,6 +163,8 @@ mods:
 - integration-foregoing:
 - inventory-tweaks-renewed:
 - iron-chests:
+- item-borders:
+    clientonly: true
 - jade:
     url: https://github.com/kalkafox/Jade/releases/download/1.16-ci/Jade-1.16.4-2.8.0.jar
 - jamd:
@@ -167,6 +181,9 @@ mods:
 - kubejs-mekanism:
 - kubejs-forge:
 - leap:
+- legendary-tooltips:
+    clientonly: true
+- lootr:
 - lumberjack:
 - macaws-paintings:
 - macaws-doors:
@@ -204,6 +221,8 @@ mods:
     clientonly: true
 - patchouli:
 - personality:
+- pick-up-notifier:
+    clientonly: true
 - placebo:
 - polymorph:
 - productivebees:
@@ -226,6 +245,7 @@ mods:
 - scarecrows-territory:
 - scorge:
 - server-tab-info:
+- simple-magnets:
 - simple-farming:
 - simply-backpacks:
 - simply-jetpacks-2:
@@ -234,6 +254,8 @@ mods:
 - sit:
 - snow-under-trees:
 - sophisticated-backpacks:
+- spark:
+    serveronly: true
 - starlight-x-create:
     clientonly: true
 - step:
