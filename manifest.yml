@@ -32,6 +32,7 @@ mods:
 - absent-by-design:
 - abundance:
 - advanced-chimneys:
+- adaptive-performance-tweaks:
 - ai-improvements:
 - akashic-tome:
 - alexs-mobs:
@@ -53,8 +54,11 @@ mods:
 - bed-benefits:
 - berry-good:
 - better-badlands:
+- better-biome-blend:
 - better-burning:
-- better-mobgriefing-gamerule:
+- better-fps-render-distance:
+- betterend-re-forked:
+- betternether-reforged:
 - beyond-earth:
 - biggerreactors:
 - biomes-o-plenty:
@@ -78,7 +82,6 @@ mods:
 - chunk-loaders:
 - citadel:
 - cloth-config-forge:
-- clumps:
 - codechicken-lib-1-8:
 - cofh-core:
 - coloured-tooltips:
@@ -120,6 +123,7 @@ mods:
 - farmers-delight:
 - fast-leaf-decay:
 - fastworkbench-minus-replacement:
+- fastsuite:
 - ferritecore:
 - flux-networks:
 - forbidden-arcanus:
@@ -147,6 +151,7 @@ mods:
 - just-enough-calculation:
 - kobolds:
 - kotlin-for-forge:
+- ksyxis:
 - kubejs-blood-magic:
 - kubejs-create:
 - kubejs-immersive-engineering:
@@ -182,8 +187,11 @@ mods:
 - nomowanderer:
 - obfuscate:
 - observerlib:
+- observable:
 - oh-the-biomes-youll-go:
 - openblocks-elevator:
+- out-of-sight:
+    clientonly: true
 - patchouli:
 - personality:
 - placebo:
@@ -194,6 +202,7 @@ mods:
 - ranged-pumps:
 - refined-storage:
 - refined-storage-addons:
+- roadrunner:
 - roots-classic:
 - rftools-base:
 - rftools-builder:
@@ -227,6 +236,7 @@ mods:
 - thermal-foundation:
 - thermal-innovation:
 - thermal-locomotion:
+- thread-control:
 - titanium:
 - tool-belt:
 - torchmaster:
@@ -255,15 +265,12 @@ mods:
 - crash-utilities:
 - creative-wireless-transmitter:
 - simply-backpacks:
-- dynamic-view:
-    serveronly: true
 - extreme-sound-muffler:
 - fastfurnace-minus-replacement:
 - rsinfinitybooster:
 - rs-requestify:
 - smooth-boot-forge:
 - tinkers-mechworks:
-- betterend-forge-port:
 - tome-of-blood:
 - the-outer-end:
 - the-abyss-chapter-ii:
