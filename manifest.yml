@@ -32,6 +32,7 @@ mods:
 - absent-by-design:
 - abundance:
 - advanced-chimneys:
+- advanced-peripherals:
 - adaptive-performance-tweaks:
 - ai-improvements:
 - akashic-tome:
@@ -62,7 +63,6 @@ mods:
 - beyond-earth:
 - biggerreactors:
 - biomes-o-plenty:
-- blockcarpentry:
 - blood-magic:
 - blueprint:
 - brandons-core:
@@ -73,6 +73,8 @@ mods:
 - buzzier-bees:
 - caelus:
 - carry-on:
+- catalogue:
+    clientonly: true
 - cb-multipart:
 - cc-tweaked:
 - charm-reforged:
@@ -86,6 +88,8 @@ mods:
 - cofh-core:
 - coloured-tooltips:
 - compact-machines:
+- configured:
+    clientonly: true
 - connected-glass:
 - construction-wand:
 - controlling:
@@ -111,6 +115,7 @@ mods:
 - enchantment-descriptions:
 - ender-storage-1-8:
 - endergetic:
+- enhanced-celestials:
 - entangled:
 - entityculling:
     clientonly: true
@@ -120,6 +125,8 @@ mods:
 - extra-boats:
 - extra-disks:
 - extrastorage:
+- falling-leaves-forge:
+    clientonly: true
 - farmers-delight:
 - fast-leaf-decay:
 - fastworkbench-minus-replacement:
@@ -134,12 +141,14 @@ mods:
 - ftb-library-forge:
 - ftb-teams-forge:
 - ftb-ultimine-forge:
+- framedblocks:
 - geckolib:
 - gravestone-mod:
 - hats:
 - immersive-engineering:
 - immersive-petroleum:
 - industrial-foregoing:
+- integration-foregoing:
 - inventory-tweaks-renewed:
 - iron-chests:
 - jade:
@@ -174,6 +183,7 @@ mods:
 - mekanism-generators:
 - mekanism-tools:
 - mekanism:
+- metal-barrels:
 - mining-gadgets:
 - mmmmmmmmmmmm:
 - mob-grinding-utils:
@@ -212,18 +222,20 @@ mods:
 - rhino:
 - runelic:
 - savage-and-ravage:
-- save-my-stronghold:
 - scannable:
 - scarecrows-territory:
 - scorge:
 - server-tab-info:
 - simple-farming:
+- simply-backpacks:
 - simply-jetpacks-2:
 - simply-light:
 - simply-tea:
 - sit:
 - snow-under-trees:
+- sophisticated-backpacks:
 - starlight-x-create:
+    clientonly: true
 - step:
 - storage-for-computercraft:
 - supermartijn642s-config-lib:
@@ -245,6 +257,8 @@ mods:
 - trash-cans:
 - trashslot:
 - travel-anchors:
+- travelers-titles:
+- universal-grid:
 - upgrade-aquatic:
 - valhelsia-core:
 - valhelsia-structures:
@@ -257,7 +271,11 @@ mods:
 - xnet-gases:
 - yungs-api:
 - yungs-better-caves:
+- yungs-better-dungeons:
 - yungs-better-mineshafts-forge:
+- yungs-better-strongholds:
+- yungs-bridges:
+- yungs-extras:
 - zerocore:
 - botany-pots:
 - botany-trees:
@@ -265,7 +283,6 @@ mods:
 - cleancut:
 - crash-utilities:
 - creative-wireless-transmitter:
-- simply-backpacks:
 - extreme-sound-muffler:
 - fastfurnace-minus-replacement:
 - rsinfinitybooster:
