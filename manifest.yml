@@ -114,7 +114,8 @@ mods:
 - dash:
 - decorative-blocks-modded-compat:
 - decorative-blocks:
-- discordintegration:
+- dcintegration:
+    serveronly: true
 - draconic-evolution:
 - druidcraft:
 - easy-magic:
@@ -160,7 +161,6 @@ mods:
 - immersive-engineering:
 - immersive-petroleum:
 - industrial-foregoing:
-- integration-foregoing:
 - inventory-tweaks-renewed:
 - iron-chests:
 - item-borders:
