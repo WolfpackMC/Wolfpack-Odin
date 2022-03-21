@@ -24,6 +24,10 @@ I can't stress this enough as the validation of this process determines your suc
 
     - If you are running Linux/macOS, you might need to right click the instance before starting, go to the `Settings` tab and select `Custom commands`. Set the `$INST_DIR\src\multimc.bat` to `$INST_DIR/src/multimc.sh` and add an `sh` at the beginning.
 
+## Server
+
+Main server is up. To connect, use `vulpera.com` as your address field and you should be able to connect.
+
 ### Questions & Concerns
 
 As always, you can contact me on any of my [networks](https://github.com/kalkafox) for any help.
