@@ -6,6 +6,8 @@ Wolfpack is the name given to the [modpacks](https://github.com/WolfpackMC) avai
 
 A full list of the mods can be found in the raw [manifest.yml](https://github.com/WolfpackMC/Wolfpack-Odin/blob/master/manifest.yml), but that can be deemed a bit too lengthy and unexplanatory for some mods. Therefore, a more user-friendly list will be shown below.
 
+{% include mods.html %}
+
 ### WIP
 
 ## Awesome. How do I get started?
