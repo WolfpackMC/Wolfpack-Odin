@@ -14,14 +14,14 @@ const getJSON = async url => {
 
 let html = "";
 
+getJSON("https://odin.vulpera.com/modlist.json").then(data => {
+    let num = 0
+    data.forEach(obj => {
+        html += `<div class="mod" id="${obj['id']}"><img class="mod_logo" src="${obj['logo']}" /> <span class="name">${obj['name']}</span><br><span class="author"><a href="@${obj['author_url']}">${obj['author']}</a></span><span class="summary">${obj['summary']}</span></div>`;
+    })
+    mods_dom.innerHTML = html;
+})
+
 window.onload = (event) => {
     console.log("ye m8");
-    getJSON("https://wolfpackmc.github.io/Wolfpack-Odin/manifest.lock").then(data => {
-        let num = 0
-        data["mods"].forEach(obj => {
-            html += `<div class="mod" id="${obj['id']}">${obj['downloadUrl']}</div><br><br>`;
-            console.log(`Appended ${obj['id']} to the html`);
-        })
-        mods_dom.innerHTML = html;
-    })
 }
