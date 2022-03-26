@@ -2,13 +2,11 @@
 
 Wolfpack is the name given to the [modpacks](https://github.com/WolfpackMC) available on GitHub. Odin is the codename for the 1.16.5 modpack which contains mostly a mixture of magic and tech mods, with some optimizations and improvements put into it. The modpacks in general have no relative theme, and is mostly a cluster of mods that are deemed interesting to add by popular demand. You can think of it as a whole bunch of wires bundled together and shoved into any socket you could find on the Minecraft instance. That's basically modded for you.
 
-<a href="#mods">## What are the mods?</a>
+## What are the mods?
 
 A full list of the mods can be found in the raw [manifest.yml](https://github.com/WolfpackMC/Wolfpack-Odin/blob/master/manifest.yml), but that can be deemed a bit too lengthy and unexplanatory for some mods. Therefore, a more user-friendly list will be shown below.
 
 <iframe src="mods.html" width="1000px" height="1200px"></iframe>
-
-### WIP
 
 ## Awesome. How do I get started?
 
