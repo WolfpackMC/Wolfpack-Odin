@@ -132,7 +132,7 @@ mods:
 - equipment-compare:
     clientonly: true
 - extended-lights-mod:
-    id: 335051
+    url: https://media.forgecdn.net/files/3144/281/extlights-3.3.jar
 - extra-boats:
 - extra-disks:
 - extrastorage:
@@ -321,5 +321,5 @@ mods:
 - worldedit:
     optional: true
 - pregenforge:
-    id: 323043
     serveronly: true
+    url: https://media.forgecdn.net/files/3157/565/PreGenForge-0.2.2-mc1.16.4.jar
