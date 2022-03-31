@@ -224,6 +224,7 @@ mods:
 - pick-up-notifier:
     clientonly: true
 - placebo:
+- pipez:
 - polymorph:
 - productivebees:
 - quark:
