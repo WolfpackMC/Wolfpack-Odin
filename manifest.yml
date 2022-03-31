@@ -321,5 +321,5 @@ mods:
 - worldedit:
     optional: true
 - pregenforge:
-    id: 335051
+    id: 323043
     serveronly: true
